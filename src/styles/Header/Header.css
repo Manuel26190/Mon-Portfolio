@@ -1,21 +1,29 @@
-section {
+.div-header {
   display: flex;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-section div {
-  width: 30%;
-  border: 1px solid black;
-  background: rgb(237, 177, 186);
-}
-section nav {
-  background: rgb(178, 195, 178);
-  width: 70%;
-}
-section nav ul {
+.div-header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 4em;
+  padding-inline-start: 0;
   list-style-type: none;
 }
-section nav ul a {
+.div-header nav ul li {
+  display: flex;
+  align-items: flex-end;
+}
+.div-header nav ul a {
   text-decoration: none;
+  font-size: 1.2em;
+}
+.div-header nav ul .theme-btn {
+  border: none;
+  width: 35px;
+  font-size: 1.2em;
+}
+.div-header nav ul .theme-btn.theme-mode {
+  background: grey;
+  color: yellow;
 }/*# sourceMappingURL=Header.css.map */

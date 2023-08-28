@@ -1,22 +1,35 @@
-section{
-    display: flex;
-    width: 100%;
-    div{
-        width: 30%;
-        border: 1px solid black;
-        background: rgb(237, 177, 186);
-    }  
+.div-header{  
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+          
     nav{
-        background: rgb(178, 195, 178);
-        width: 70%;
-        ul{
+                                        
+        ul{            
             display: flex;
-            justify-content: space-around;
-            list-style-type: none;
+            justify-content: center;
+            gap: 4em;
+            padding-inline-start: 0;
+            list-style-type: none;            
+            
+            li{
+                display: flex;
+                align-items: flex-end;                
+            }
+            
             a{
                 text-decoration: none;
-            }    
+                font-size: 1.2em;                 
+            }.theme-btn{
+                border: none;
+                width: 35px;
+                font-size: 1.2em;                               
+                                
+            }.theme-btn.theme-mode {
+                background: grey;
+                color:yellow;
+            }   
         }
     }
 }

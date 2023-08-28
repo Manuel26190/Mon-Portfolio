@@ -6,12 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
+}  
   
-}
 
-.lune{
-  background: grey;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
