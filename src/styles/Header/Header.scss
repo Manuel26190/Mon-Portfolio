@@ -1,0 +1,27 @@
+section{
+    display: flex;
+    width: 100%;
+    div{
+        width: 30%;
+        border: 1px solid black;
+        background: rgb(237, 177, 186);
+    }  
+    
+    nav{
+        background: rgb(178, 195, 178);
+        width: 70%;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            a{
+                text-decoration: none;
+            }    
+        }
+    }
+}
+
+
+
+ 
+

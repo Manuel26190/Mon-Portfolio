@@ -1,0 +1,21 @@
+section {
+  display: flex;
+  width: 100%;
+}
+section div {
+  width: 30%;
+  border: 1px solid black;
+  background: rgb(237, 177, 186);
+}
+section nav {
+  background: rgb(178, 195, 178);
+  width: 70%;
+}
+section nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+section nav ul a {
+  text-decoration: none;
+}/*# sourceMappingURL=Header.css.map */
