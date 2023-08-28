@@ -2,7 +2,7 @@ import "../../styles/Header/Header.css";
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
-import '../../styles/index/index.css'
+import { Link } from 'react-router-dom';
 
 function Header () {
 
@@ -26,10 +26,10 @@ function Header () {
         <div className="div-header">           
             <nav>
                 <ul>
-                    <li><a href="https://fr.wallpaper.mob.org/gallery/tag=naruto/">Accueil</a></li>
-                    <li><a className="" href="#">A propos de moi</a></li>
-                    <li><a href="#">Compétences</a></li>
-                    <li><a href="#">Portfolio</a></li>                    
+                    <li><Link href="#">Accueil</Link></li>
+                    <li><Link className="" href="#">A propos de moi</Link></li>                    
+                    <li><Link href="#">Portfolio</Link></li>
+                    <li><Link href="#">Contact</Link></li>                    
                     <li>
                         <button onClick={toggleTheme} className= {isDarkMode ? "theme-btn theme-mode" : "theme-btn " } >
                         <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} />
