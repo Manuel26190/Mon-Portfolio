@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage/HomePage';
 import AboutMePage from './pages/AboutMe/AboutMe';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +23,7 @@ root.render(
                 <Route path="/portfolio" element={<Portfolio />} />                
                 <Route path="/contact" element={<Contact />} />                
             </Routes>
+          <Footer />
       </Router>
   </React.StrictMode>
 );

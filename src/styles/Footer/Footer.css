@@ -1,0 +1,8 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+div p {
+  font-size: 1.3em;
+  text-align: center;
+}/*# sourceMappingURL=Footer.css.map */

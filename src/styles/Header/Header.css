@@ -3,9 +3,6 @@
   justify-content: center;
   align-items: center;
 }
-.div-header nav {
-  border-bottom: 2px solid linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
-}
 .div-header nav ul {
   display: flex;
   justify-content: center;
@@ -15,11 +12,17 @@
 }
 .div-header nav ul li {
   display: flex;
-  align-items: flex-end;
+  align-items: baseline;
 }
 .div-header nav ul .nav-link {
+  padding-bottom: 7px;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  transition: transform 300ms ease-in-out;
+}
+.div-header nav ul .nav-link:hover {
+  transform: scale(1.3);
+  transform: translateY(-15%);
 }
 .div-header nav ul .nav-link, .div-header nav ul .faHouse {
   font-size: 1.3em;
@@ -30,6 +33,11 @@
   width: 35px;
   font-size: 1.3em;
   cursor: pointer;
+  transition: transform 300ms ease-in-out;
+}
+.div-header nav ul .theme-btn:hover {
+  transform: scale(1.3);
+  transform: translateY(-15%);
 }
 .div-header nav ul .theme-btn.theme-mode {
   background: #1f1f1f;

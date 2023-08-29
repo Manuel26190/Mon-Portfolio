@@ -18,7 +18,7 @@ function Header () {
     
       const links = document.querySelectorAll('a');
       links.forEach(link => {
-        link.style.color = isDarkMode ? 'white' : 'grey';
+        link.style.color = isDarkMode ? '#f8f8f8' : '#1f1f1f';
       });
     
     const location = useLocation();
