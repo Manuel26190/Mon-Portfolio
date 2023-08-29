@@ -7,6 +7,8 @@ import Header from './components/Header/Header';
 import HomePage from './pages/HomePage/HomePage';
 import AboutMePage from './pages/AboutMe/AboutMe';
 import Portfolio from './pages/Portfolio/Portfolio';
+import Contact from './pages/Contact/Contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,6 +20,7 @@ root.render(
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about" element={<AboutMePage />} />
                 <Route path="/portfolio" element={<Portfolio />} />                
+                <Route path="/contact" element={<Contact />} />                
             </Routes>
       </Router>
   </React.StrictMode>
