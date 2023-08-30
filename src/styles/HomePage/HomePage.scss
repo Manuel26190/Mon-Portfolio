@@ -1,5 +1,6 @@
 @import'../variables/variables.scss';
 
+//Keyframes du salut de l'icon main
 @keyframes wave {
     0% {    
         transform: rotate(0deg);
@@ -68,7 +69,20 @@
             }    
         }h2{
             font-size: 2em;
-            margin: 0;
+            margin: 0.3em;
+            //text-align: center;
+        }.social-icons{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:3em;  
+            
+            
+            a{
+                color: $primary-darkTheme-color;
+                font-size: 1.5em ;
+            }
+            
         }
       }       
 }
