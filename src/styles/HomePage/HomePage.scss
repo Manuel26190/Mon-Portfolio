@@ -69,18 +69,22 @@
             }    
         }h2{
             font-size: 2em;
-            margin: 0.3em;
+            margin: 0.3em 0 0.5em 0;
             //text-align: center;
         }.social-icons{
             display: flex;
             flex-direction: row;
             justify-content: center;
-            gap:3em;  
-            
+            gap:3em;             
             
             a{
                 color: $primary-darkTheme-color;
-                font-size: 1.5em ;
+                font-size: 1.9em ;
+                transition: transform 500ms ease-in-out;
+                &:hover{
+                    //color: red;
+                    transform: scale(1.3) ;
+                }
             }
             
         }
