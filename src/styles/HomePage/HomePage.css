@@ -1,7 +1,35 @@
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 .homePage-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 180px;
+  align-items: center;
 }
 .homePage-section .picture-div {
   border-radius: 50%;
@@ -17,13 +45,28 @@
      object-fit: contain;
   border-radius: 50%;
 }
-
-h1 {
-  font-size: 2.5em;
+.homePage-section .text-div {
+  margin-left: 2em;
+}
+.homePage-section .text-div h1 {
+  font-size: 2.6em;
   margin: 0;
 }
-
-h2 {
+.homePage-section .text-div h1 .h1-first-name {
+  background: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.homePage-section .text-div h1 .home-hand {
+  font-size: 45px;
+  margin-left: 10px;
+  animation-duration: 2.5s;
+  animation: wave 2s infinite;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+.homePage-section .text-div h2 {
   font-size: 2em;
   margin: 0;
 }/*# sourceMappingURL=HomePage.css.map */

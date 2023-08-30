@@ -7,8 +7,8 @@ function HomePage () {
             <div className='picture-div'>
                 <img className='photo' src={require('../../assets/image.webp')} alt="cliché de moi" />
             </div>                
-            <div>
-                <h1>Bonjour, je suis Manuel<span className="Home-hand"> 🤚</span></h1>
+            <div className='text-div'>
+                <h1>Bonjour, je suis <span className='h1-first-name'>Manuel</span><span className="home-hand">🤚</span></h1>
                 <h2>Je suis développeur Front-end.</h2>
             </div>
             
@@ -18,3 +18,4 @@ function HomePage () {
 };
 
 export default HomePage;
+
