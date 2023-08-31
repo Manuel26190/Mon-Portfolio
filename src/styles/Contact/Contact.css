@@ -8,24 +8,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.1em;
-  width: 30%;
+  margin-top: 3em;
+  padding: 1em;
+  width: 40%;
 }
 .form-div .contact-form .form-input {
   border-radius: 0.5em;
   padding: 10px;
   border: none;
-  width: 100%;
+  width: 90%;
   font-size: 1.2em;
   font-family: monospace;
+  margin-bottom: 2.5em;
 }
 .form-div .contact-form .form-textarea {
   padding: 10px;
   border: none;
   height: 6em;
-  width: 100%;
+  width: 90%;
   border-radius: 0.5em;
   font-size: 1.2em;
+  margin-bottom: 2.5em;
 }
 .form-div .contact-form .form-button {
   border: none;
@@ -38,12 +41,10 @@
 @media (max-width: 1000px) {
   .form-div .contact-form {
     width: 80%;
-    background: rgb(65, 172, 29);
   }
 }
 @media (max-width: 1000px) {
   .form-div .contact-form {
     width: 80%;
-    background: rgb(65, 172, 29);
   }
 }/*# sourceMappingURL=Contact.css.map */

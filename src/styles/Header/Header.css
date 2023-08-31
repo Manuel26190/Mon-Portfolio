@@ -50,7 +50,10 @@
 }
 
 @media (max-width: 1000px) {
-  .div-header nav ul {
+  .div-header nav {
+    width: 90%;
+  }
+  ul {
     gap: 2em;
     padding: 0.5em;
     text-align: center;
