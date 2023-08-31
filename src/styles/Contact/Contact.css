@@ -2,10 +2,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 26em;
 }
-.form-div form {
+.form-div .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 1.2em;
+  align-items: center;
+  gap: 1.1em;
   width: 30%;
+}
+.form-div .contact-form .form-input {
+  border-radius: 0.5em;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 1.5em;
+  font-family: monospace;
+}
+.form-div .contact-form .form-textarea {
+  padding: 10px;
+  border: none;
+  height: 6em;
+  width: 100%;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+}
+.form-div .contact-form .form-button {
+  border: none;
+  height: 3em;
+  border-radius: 5%;
+  font-size: 1em;
 }/*# sourceMappingURL=Contact.css.map */
