@@ -53,6 +53,7 @@
         h1{
             font-size: 2.6em;
             margin: 0;
+            text-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);
             .h1-first-name{
                 background: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
                 -webkit-background-clip: text;
@@ -70,23 +71,34 @@
         }h2{
             font-size: 2em;
             margin: 0.3em 0 0.5em 0;
-            //text-align: center;
+            text-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);
         }.social-icons{
             display: flex;
             flex-direction: row;
             justify-content: center;
-            gap:3em;             
-            
+            gap:3em;           
             a{
                 color: $primary-darkTheme-color;
-                font-size: 1.9em ;
+                font-size: 1.9em ;                                
                 transition: transform 500ms ease-in-out;
-                &:hover{
-                    //color: red;
-                    transform: scale(1.3) ;
+                &:hover{                    
+                    transform: scale(1.3) ;                    
                 }
             }
             
+        }.text-ul{
+            margin-top: 0;                       
+        }.text-li{
+            list-style-type: none;
+            font-size: 1.2em;
+            line-height: 1.9;
+            transition: transform 300ms ease-in-out;
+            &:hover{
+                transform: translateY(-10%);
+            }
+            .text-li-icon{
+                margin-right: 0.4em;                
+            }
         }
       }       
 }

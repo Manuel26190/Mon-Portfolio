@@ -4,11 +4,13 @@
   align-items: center;
   margin-bottom: 26em;
 }
+.form-div h2 {
+  margin-top: 2.2em;
+}
 .form-div .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3em;
   padding: 1em;
   width: 40%;
 }
@@ -20,6 +22,7 @@
   font-size: 1.2em;
   font-family: monospace;
   margin-bottom: 2.5em;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 .form-div .contact-form .form-textarea {
   padding: 10px;
@@ -29,12 +32,14 @@
   border-radius: 0.5em;
   font-size: 1.2em;
   margin-bottom: 2.5em;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 .form-div .contact-form .form-button {
   border: none;
   padding: 0.9em 1.5em 0.9em 1.5em;
   border-radius: 0.5em;
   font-size: 1em;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
   background-image: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
 }
 
