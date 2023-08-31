@@ -44,17 +44,46 @@
                 color:yellow;
             } 
         }
-    }
-    
+    }    
 }
+
+//Border bottom qui s'affiche sous les liens de la nav selon la page visitée
 .active {
     border-bottom: 5px solid ;
     border-image-slice: 1;
     border-image-source: -webkit-linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
 }
 
+//Responsive Header//
+
+@media(max-width: 1000px) {
+    .div-header nav ul{
+        gap: 2em;
+        padding: 0.5em;
+        text-align: center;
+    }  
+}
+
+@media(max-width: 768px){
+    .div-header{                                     
+        nav{                                            
+            ul{                            
+                gap: 1em;
+                padding: 0.5em;                          
+                li .nav-link{                    
+                    &:hover{
+                        transform: translateY(-20%);                    
+                    } 
+                }
+            }
+        }
+    }
+}
+
 
 
 
  
-
+//          gap: 0.5em;
+//          padding: 0.5em;
+//          text-align: center;
