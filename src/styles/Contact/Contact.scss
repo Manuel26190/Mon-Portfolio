@@ -1,3 +1,5 @@
+@import '../variables/variables.scss';
+
 .form-div{
     display: flex;
     flex-direction: column;    
@@ -5,8 +7,7 @@
     margin-bottom: 26em;
     .contact-form{
         display: flex;
-        flex-direction: column;
-        //justify-content: center;
+        flex-direction: column;        
         align-items: center;
         gap:1.1em;
         width: 30%;
@@ -15,7 +16,7 @@
             padding: 10px;
             border: none;
             width: 100%;
-            font-size: 1.5em;
+            font-size: 1.2em;
             font-family: monospace;
         }
         .form-textarea{
@@ -24,18 +25,32 @@
             height: 6em;
             width: 100%;
             border-radius: 0.5em;
-            font-size: 1.5em;
+            font-size: 1.2em;
             
         }.form-button{
             border: none;
-            //width: 30%;
-            height: 3em;
-            border-radius: 5%;
-            font-size: 1em;          
-            
-
-            
-        }      
-
+            padding: 0.9em 1.5em 0.9em 1.5em;            
+            border-radius: 0.5em;
+            font-size: 1em;
+            background-image: $primary-azur-color;          
+        }
     }
+}
+
+@media(max-width: 1000px) {
+    .form-div{
+        .contact-form{
+            width: 80%;
+            background: rgb(65, 172, 29);            
+        }
+    }    
+}
+
+@media(max-width: 1000px) {
+    .form-div{
+        .contact-form{
+            width: 80%;
+            background: rgb(65, 172, 29);            
+        }
+    }    
 }

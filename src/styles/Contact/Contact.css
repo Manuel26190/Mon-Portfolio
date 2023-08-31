@@ -16,7 +16,7 @@
   padding: 10px;
   border: none;
   width: 100%;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: monospace;
 }
 .form-div .contact-form .form-textarea {
@@ -25,11 +25,25 @@
   height: 6em;
   width: 100%;
   border-radius: 0.5em;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .form-div .contact-form .form-button {
   border: none;
-  height: 3em;
-  border-radius: 5%;
+  padding: 0.9em 1.5em 0.9em 1.5em;
+  border-radius: 0.5em;
   font-size: 1em;
+  background-image: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
+}
+
+@media (max-width: 1000px) {
+  .form-div .contact-form {
+    width: 80%;
+    background: rgb(65, 172, 29);
+  }
+}
+@media (max-width: 1000px) {
+  .form-div .contact-form {
+    width: 80%;
+    background: rgb(65, 172, 29);
+  }
 }/*# sourceMappingURL=Contact.css.map */
