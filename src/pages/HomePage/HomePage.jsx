@@ -13,9 +13,9 @@ function HomePage() {
                 <h1>Bonjour, je suis <span className='h1-first-name'>Manuel</span><span className="home-hand">🤚</span></h1>
                 <h2>Je suis développeur Front-end.</h2>
                 <div className='social-icons'>
-                    <a href="lien_vers_github"><FontAwesomeIcon icon={faGithub} /></a>
-                    <a href="lien_vers_linkedin"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href="lien_vers_twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a href="https://github.com/Manuel26190" target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faGithub} /></a>
+                    <a href="https://www.linkedin.com/in/manuel-faure-6a7a96218/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href="https://twitter.com/Manuel26Faure" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
                 </div>
             </div>
         </section>
