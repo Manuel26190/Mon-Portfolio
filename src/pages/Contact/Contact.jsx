@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/Contact/Contact.css';
+import './Contact.css';
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {

@@ -1,4 +1,4 @@
-import "../../styles/Header/Header.css";
+import "./Header.css";
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon, faHouse } from '@fortawesome/free-solid-svg-icons';

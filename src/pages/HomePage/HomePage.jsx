@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/HomePage/HomePage.css';
+import './HomePage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,9 +13,9 @@ function HomePage() {
                 <h1>Bonjour, je suis <span className='h1-first-name'>Manuel</span><span className="home-hand">🤚</span></h1>
                 <h2>Je suis développeur Front-end.</h2>
                 <ul className="text-ul">
-                    <li className="text-li" style={{cursor: "default"}}><span className="text-li-icon" aria-label="cheese" role="img">☕</span> Alimenté par le café</li>
+                    <li className="text-li" style={{cursor: "default"}}><span className="text-li-icon" aria-label="cheese" role="img">☕</span> Carburant : le café</li>
                     <li className="text-li" style={{cursor: "default"}}><span className="text-li-icon" aria-label="cheese" role="img">🌎</span> Réside dans la Drôme (fr)</li>
-                    <li className="text-li" style={{cursor: "default"}}><span className="text-li-icon" aria-label="cheese" role="img">💼</span> Formé par OpenClassrooms</li>
+                    <li className="text-li" style={{cursor: "default"}}><span className="text-li-icon" aria-label="cheese" role="img">💼</span> Formé chez OpenClassrooms</li>
                     <li className="text-li" style={{cursor: "default"}}><span className="text-li-icon" aria-label="cheese" role="img">📧</span> manuelfaure26190@gmail.com</li>
                 </ul>
                 <div className='social-icons'>
