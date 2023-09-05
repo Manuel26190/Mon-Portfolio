@@ -25,11 +25,11 @@ function AboutMePage () {
             <p><span style={{color: info.baseColor}}>skills/tools <span
                 className="">(main)</span> $</span> ls</p>
             <p style={{color: info.baseColor}}> Proficient With</p>
-            <ul className="">
+            <ul className="skillsText-ul">
                 {info.skills.maitriseDe.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Exposed To</p>
-            <ul className="">
+            <ul className="skillsText-ul">
                 {info.skills.utilisationDe.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
         </>;
@@ -41,7 +41,7 @@ function AboutMePage () {
                 hobbies/interests</p>
             <p><span style={{color: info.baseColor}}>hobbies/interests <span
                 className="">(main)</span> $</span> ls</p>
-            <ul>
+            <ul className="diversText-ul">
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
                 ))}
