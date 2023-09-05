@@ -14,14 +14,17 @@
         align-items: center;        
         gap: 0.5em;
         font-size: 0.9em;
-        .red-icon{
+        .icon{
+            
+        }
+        .red{
             color: #ff6057;
             padding-left: 1.2em;
         }                
-        .yellow-icon{
+        .yellow{
             color:  #ffbd2e;;
         }                
-        .green-icon{
+        .green{
             color: #27c93f;
         }                
     }

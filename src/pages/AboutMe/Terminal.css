@@ -15,14 +15,14 @@
   gap: 0.5em;
   font-size: 0.9em;
 }
-.terminal-section .banner-div .red-icon {
+.terminal-section .banner-div .red {
   color: #ff6057;
   padding-left: 1.2em;
 }
-.terminal-section .banner-div .yellow-icon {
+.terminal-section .banner-div .yellow {
   color: #ffbd2e;
 }
-.terminal-section .banner-div .green-icon {
+.terminal-section .banner-div .green {
   color: #27c93f;
 }
 .terminal-section .terminal-div {
