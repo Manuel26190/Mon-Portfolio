@@ -1,10 +1,10 @@
-// import Terminal from "./Terminal";
+import Terminal from "./Terminal";
 
 function AboutMePage () {
     return (
         <div>
             <h1>AnoutMePage</h1>
-            {/* <Terminal /> */}
+            <Terminal />
         </div>
     );
 };
