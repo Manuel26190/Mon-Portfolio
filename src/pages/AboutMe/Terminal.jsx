@@ -11,7 +11,7 @@ function Terminal ({text}) {
                 <FontAwesomeIcon className="icon yellow" icon={faCircle} />
                 <FontAwesomeIcon className="icon green" icon={faCircle} />
             </div>
-            <div className="terminal-div">
+            <div className="terminal-div">                
                 <p>{text}</p>                               
             </div>
         </section>

@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .terminal-section{
     display: flex;
     flex-direction: column;    
@@ -13,10 +15,7 @@
         justify-content: flex-start; 
         align-items: center;        
         gap: 0.5em;
-        font-size: 0.9em;
-        .icon{
-            
-        }
+        font-size: 0.9em;        
         .red{
             color: #ff6057;
             padding-left: 1.2em;
@@ -31,10 +30,14 @@
     .terminal-div{
         background: black;                
         width: 50%;
-        border-radius: 0 0 0.6em 0.6em;    
+        border-radius: 0 0 0.6em 0.6em;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);    
     }p{
-        color: white;
+        color: $primary-clearTheme-color;
         padding: 1em;
+        font-family: monospace;
+        text-align: start;
+        margin: 0;
     }   
 }
 
