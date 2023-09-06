@@ -6,20 +6,15 @@
 // import mock5 from "../img/mock5.png"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
+/*https://gradientgenerator.paytonpierce.dev/ */
 
 export const info = {
     firstName: "Manuel",
     lastName: "Faure",
 
-    initials: "mf", // the example uses first and last, but feel free to use three or more if you like.
-    position: "développeur Front-end",
-    // selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    initials: "mf", 
+    position: "développeur Front-end",    
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
     miniBio: [
         {
@@ -66,11 +61,11 @@ export const info = {
     hobbies: [
         {
             label: 'le trail',
-            emoji: '📖'
+            emoji: '🌄🏃‍♂‍'
         },
         {
-            label: 'le théatre',
-            emoji: '🎭'
+            label: "l'astronomie",
+            emoji: '🪐🌌'
         },
         {
             label: 'le cinéma',
@@ -78,14 +73,18 @@ export const info = {
         },
         {
             label: 'la cuisine',
-            emoji: '🌶'
+            emoji: '🌶🍰'
+        },
+        {
+            label: 'la musique',
+            emoji: '🎸🎹'
         }
     ],
     portfolio: [ 
         {
             title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://paytonpierce.dev", 
+            source: "https://github.com/paytonjewell", 
             // image: mock1
         },
         {
