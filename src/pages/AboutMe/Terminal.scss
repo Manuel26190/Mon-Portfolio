@@ -32,10 +32,13 @@
         width: 50%;
         border-radius: 0 0 0.6em 0.6em;
         box-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);    
-    }p{
+    }.text-div{
         color: $primary-clearTheme-color;
         padding: 1em;
         font-family: monospace;
+        //text-align: start;
+        //margin: 0;
+    }p{
         text-align: start;
         margin: 0;
     }   

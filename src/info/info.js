@@ -15,7 +15,7 @@ the site.
 export const info = {
     firstName: "Manuel",
     lastName: "Faure",
-    
+
     initials: "mf", // the example uses first and last, but feel free to use three or more if you like.
     position: "développeur Front-end",
     // selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -59,8 +59,8 @@ export const info = {
     bio: "Bonjour! Je suis Manuel. Je suis développeur Front-end. J'ai étudié chez OpenClassrooms, j'aime me promener en montagne et je crois que le métier de développeur a de belles années devant lui notamment avec l'arrivée de l'intéligence artificielle ",
     skills:
         {
-            maitriseDe: ['javascript', 'react', 'git', 'github', 'html5', 'css3', 'sass', 'figma'],
-            utilisationDe: ['nodejs', 'express']
+            competentEn: ['javascript', 'react', 'git', 'github', 'html5', 'css3', 'sass', 'figma'],
+            familiariseAvec: ['nodejs', 'express', 'mongoDB']
         }
     ,
     hobbies: [

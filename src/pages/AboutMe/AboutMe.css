@@ -2,15 +2,25 @@
   margin-top: 3em;
   gap: 3.5em;
 }
+.aboutMe-div p {
+  font-size: 2;
+}
 .aboutMe-div li {
   list-style-type: none;
-  margin-top: 1em;
 }
 
 .skillsText-ul {
-  height: 7em;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.diversText-ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  margin: 0;
 }/*# sourceMappingURL=AboutMe.css.map */

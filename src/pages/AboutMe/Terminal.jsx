@@ -12,7 +12,7 @@ function Terminal ({text}) {
                 <FontAwesomeIcon className="icon green" icon={faCircle} />
             </div>
             <div className="terminal-div">                
-                <p>{text}</p>                               
+                <div className="text-div">{text}</div>                                              
             </div>
         </section>
     )

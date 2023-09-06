@@ -20,17 +20,17 @@ function AboutMePage () {
 
     function skillsText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd Compétences/Outils
             </p>
-            <p><span style={{color: info.baseColor}}>skills/tools <span
+            <p><span style={{color: info.baseColor}}>compétences/outils <span
                 className="">(main)</span> $</span> ls</p>
-            <p style={{color: info.baseColor}}> Proficient With</p>
+            <p style={{color: info.baseColor}}> Compétent en</p>
             <ul className="skillsText-ul">
-                {info.skills.maitriseDe.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+                {info.skills.competentEn.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Exposed To</p>
+            <p style={{color: info.baseColor}}> Familiarisé avec</p>
             <ul className="skillsText-ul">
-                {info.skills.utilisationDe.map((skill, index) => <li key={index}>{skill}</li>)}
+                {info.skills.familiariseAvec.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
         </>;
     };
