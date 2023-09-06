@@ -3,13 +3,25 @@
   gap: 3.5em;
 }
 .aboutMe-div p {
-  font-size: 2;
+  font-size: 1.5em;
+  padding: 0.8em;
 }
 .aboutMe-div li {
   list-style-type: none;
+  padding: 0.4em;
 }
 
-.skillsText-ul {
+.skillsText-ul-first {
+  height: 7em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.skillsText-ul-last {
+  height: 2em;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

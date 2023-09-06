@@ -3,8 +3,7 @@ import { info } from "../../info/info";
 import './AboutMe.css';
 import {Box} from "@mui/material";
 
-function AboutMePage () { 
-    //console.log('info', info.bio);
+function AboutMePage () {     
     const firstName = info.firstName.toLowerCase()
 
     function aboutMeText() {
@@ -25,11 +24,11 @@ function AboutMePage () {
             <p><span style={{color: info.baseColor}}>compétences/outils <span
                 className="">(main)</span> $</span> ls</p>
             <p style={{color: info.baseColor}}> Compétent en</p>
-            <ul className="skillsText-ul">
+            <ul className="skillsText-ul-first">
                 {info.skills.competentEn.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Familiarisé avec</p>
-            <ul className="skillsText-ul">
+            <ul className="skillsText-ul-last">
                 {info.skills.familiariseAvec.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
         </>;
@@ -38,8 +37,8 @@ function AboutMePage () {
     function diversText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                hobbies/interests</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interests <span
+            Loisirs/Centres d'intérêt</p>
+            <p><span style={{color: info.baseColor}}>Loisirs/Centres d'intérêt <span
                 className="">(main)</span> $</span> ls</p>
             <ul className="diversText-ul">
                 {info.hobbies.map((hobby, index) => (

@@ -30,15 +30,15 @@
   color: #27c93f;
 }
 .terminal-section .terminal-div {
-  background: black;
+  background-color: rgb(39, 36, 47);
   width: 50%;
   border-radius: 0 0 0.6em 0.6em;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 .terminal-section .text-div {
   color: #f8f8f8;
-  padding: 1em;
-  font-family: monospace;
+  padding: 2em 3em;
+  font-family: "Courier New", Courier, monospace;
 }
 .terminal-section p {
   text-align: start;

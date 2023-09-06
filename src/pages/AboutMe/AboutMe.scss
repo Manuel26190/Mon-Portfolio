@@ -1,26 +1,34 @@
 .aboutMe-div{
     margin-top: 3em;
-    gap: 3.5em;
+    gap: 3.5em;    
     p{
-        font-size: 2; 
+        font-size: 1.5em;        
+        padding: 0.8em;        
     }          
     li{
         list-style-type: none;
+        padding: 0.4em;
         //margin-top: 1em;        
     }    
 }
- 
 
-.skillsText-ul{
-    //height: 7em;
+.skillsText-ul-first{
+    height: 7em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     font-size: 1.5em; 
     margin: 0;   
 }
-.diversText-ul{
-    //height: 7em;
+.skillsText-ul-last{
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5em; 
+    margin: 0;   
+}
+.diversText-ul{      
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
