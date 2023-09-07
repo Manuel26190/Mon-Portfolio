@@ -9,30 +9,24 @@
 .aboutMe-div li {
   list-style-type: none;
   padding: 0.4em;
+  transition: transform 500ms ease-in-out;
+}
+.aboutMe-div li:hover {
+  transform: translateY(-10%);
+}
+
+.terminal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  margin: 0;
 }
 
 .skillsText-ul-first {
   height: 7em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-size: 1.5em;
-  margin: 0;
 }
 
 .skillsText-ul-last {
   height: 2em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-size: 1.5em;
-  margin: 0;
-}
-
-.diversText-ul {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-size: 1.5em;
-  margin: 0;
 }/*# sourceMappingURL=AboutMe.css.map */

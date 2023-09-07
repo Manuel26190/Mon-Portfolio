@@ -24,11 +24,11 @@ function AboutMePage () {
             <p><span style={{color: info.baseColor}}>compétences/outils <span
                 className="">(main)</span> $</span> ls</p>
             <p style={{color: info.baseColor}}> Compétent en</p>
-            <ul className="skillsText-ul-first">
+            <ul className="terminal skillsText-ul-first">
                 {info.skills.competentEn.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Familiarisé avec</p>
-            <ul className="skillsText-ul-last">
+            <ul className="terminal skillsText-ul-last">
                 {info.skills.familiariseAvec.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
         </>;
@@ -40,7 +40,7 @@ function AboutMePage () {
             Loisirs/Centres d'intérêt</p>
             <p><span style={{color: info.baseColor}}>Loisirs/Centres d'intérêt <span
                 className="">(main)</span> $</span> ls</p>
-            <ul className="diversText-ul">
+            <ul className="terminal diversText-ul">
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
                 ))}
