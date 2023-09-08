@@ -1,7 +1,6 @@
 import React from 'react';
 import IconLink from "./IconLink";
 import {Box} from "@mui/material";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptop, faCode } from '@fortawesome/free-solid-svg-icons';
 
 

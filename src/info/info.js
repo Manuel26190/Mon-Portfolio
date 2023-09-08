@@ -1,7 +1,6 @@
-// import self from "../img/self.png"
- //import Projet1 from "../img/mock1.png"
-// import mock2 from "../img/mock2.png"
-// import mock3 from "../img/mock3.png"
+import projet2 from "../assets/homep2.png";
+import projet3 from "../assets/homep3.png";
+import projet8 from "../assets/homep8.png";
 // import mock4 from "../img/mock4.png"
 // import mock5 from "../img/mock5.png"
 
@@ -82,39 +81,39 @@ export const info = {
     ],
     portfolio: [ 
         {
-            title: "Project 1 Kasa",
-            live: "https://www.figma.com/proto/qEno0LwL4ZLkWyeY59kxp1/UI-Design-Kasa-FR?node-id=3-0&starting-point-node-id=3%3A0", 
-            source: "https://github.com/Manuel26190/Creer-une-application-web-de-location-immobiliere-avec-React", 
-             //image: Projet 1
+            title: "Page d'accueil d'une agence de voyage",
+            live: "#", 
+            source: "https://github.com/Manuel26190/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS", 
+            image: projet2
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock2
+            title: "Page web dynamique avec JavaScript",
+            live: "#",
+            source: "https://github.com/Manuel26190/Creer-une-page-web-dynamique-avec-javaScript",
+            image: projet3
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Debug et optimisation d'un site portfolio",
+            live: "https://manuel26190.github.io/Debugger-et-optimiser-un-site-de-photographe/",
+            source: "https://github.com/Manuel26190/Debugger-et-optimiser-un-site-de-photographe",
             // image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Application web de location immobilière avec React",
+            live: "#",
+            source: "https://github.com/Manuel26190/Creer-une-application-web-de-location-immobiliere-avec-React",
             // image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock5
+            title: "Développer le back-end d'un site de notation de livres",
+            live: "#",
+            source: "https://github.com/Manuel26190/Developper-le-back-end-d-un-site-de-notation-de-livres",
+            image: projet8
         },
         {
-            title: "Project 6",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Blog carnet de voyage",
+            live: "#",
+            source: "#",
             // image: mock5
         }
     ]
