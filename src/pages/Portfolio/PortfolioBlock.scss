@@ -1,7 +1,35 @@
-.box-image{    
-    object-fit: contain;
-    width: 40em;
-    
-    border-radius: 1em;
-    
+.box-first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 2em;
+    }
+    .box-image{    
+        object-fit: contain;
+        width: 40em;    
+        border-radius: 1em;
+        border: 10px solid grey;    
+    }
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+        font-size: 1.5em;
+        .icon-box{
+            border: 2px solid grey;
+            border-radius: 25px;
+            padding: 0.5em;            
+            .fa-laptop{
+                margin-right: 0.3em;
+            }
+            .fa-code{
+                margin-right: 0.3em;
+            }
+        }        
+    }
 }
+
+

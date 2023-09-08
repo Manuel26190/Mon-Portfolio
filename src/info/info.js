@@ -54,7 +54,7 @@ export const info = {
     skills:
         {
             competentEn: ['javascript', 'react', 'git', 'github', 'html5', 'css3', 'sass', 'figma'],
-            familiariseAvec: ['nodejs', 'express', 'mongoDB']
+            familiariseAvec: ['node.js', 'express.js', 'mongoDB']
         }
     ,
     hobbies: [
