@@ -1,1 +1,6 @@
-/*# sourceMappingURL=PortfolioBlock.css.map */
+.box-image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 40em;
+  border-radius: 1em;
+}/*# sourceMappingURL=PortfolioBlock.css.map */

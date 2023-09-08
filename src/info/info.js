@@ -1,6 +1,6 @@
 import projet2 from "../assets/homep2.png";
 import projet3 from "../assets/homep3.png";
-import projet8 from "../assets/homep8.png";
+//import projet8 from "../assets/homep8.png";
 // import mock4 from "../img/mock4.png"
 // import mock5 from "../img/mock5.png"
 
@@ -82,7 +82,7 @@ export const info = {
     portfolio: [ 
         {
             title: "Page d'accueil d'une agence de voyage",
-            live: "#", 
+            live: "https://manuel26190.github.io/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS/", 
             source: "https://github.com/Manuel26190/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS", 
             image: projet2
         },
@@ -108,7 +108,7 @@ export const info = {
             title: "Développer le back-end d'un site de notation de livres",
             live: "#",
             source: "https://github.com/Manuel26190/Developper-le-back-end-d-un-site-de-notation-de-livres",
-            image: projet8
+            //image: projet8
         },
         {
             title: "Blog carnet de voyage",
