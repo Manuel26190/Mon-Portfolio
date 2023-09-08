@@ -1,5 +1,5 @@
 // import self from "../img/self.png"
-// import mock1 from "../img/mock1.png"
+ //import Projet1 from "../img/mock1.png"
 // import mock2 from "../img/mock2.png"
 // import mock3 from "../img/mock3.png"
 // import mock4 from "../img/mock4.png"
@@ -82,10 +82,10 @@ export const info = {
     ],
     portfolio: [ 
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", 
-            source: "https://github.com/paytonjewell", 
-            // image: mock1
+            title: "Project 1 Kasa",
+            live: "https://www.figma.com/proto/qEno0LwL4ZLkWyeY59kxp1/UI-Design-Kasa-FR?node-id=3-0&starting-point-node-id=3%3A0", 
+            source: "https://github.com/Manuel26190/Creer-une-application-web-de-location-immobiliere-avec-React", 
+             //image: Projet 1
         },
         {
             title: "Project 2",
@@ -107,6 +107,12 @@ export const info = {
         },
         {
             title: "Project 5",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            // image: mock5
+        },
+        {
+            title: "Project 6",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             // image: mock5
