@@ -1,8 +1,11 @@
 import projet2 from "../assets/homep2.png";
 import projet3 from "../assets/homep3.png";
-//import projet8 from "../assets/homep8.png";
-// import mock4 from "../img/mock4.png"
-// import mock5 from "../img/mock5.png"
+import projet5 from "../assets/homep5.png";
+import projet6 from "../assets/homep6.png";
+import projet7 from "../assets/homep7.png";
+import imageP3 from "../assets/homep3.png";
+import imageP6 from "../assets/homep6.png";
+import imageP7 from "../assets/homep7.png";
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 /*https://gradientgenerator.paytonpierce.dev/ */
@@ -88,7 +91,7 @@ export const info = {
         },
         {
             title: "Page web dynamique avec JavaScript",
-            live: "#",
+            live: imageP3, 
             source: "https://github.com/Manuel26190/Creer-une-page-web-dynamique-avec-javaScript",
             image: projet3
         },
@@ -96,19 +99,19 @@ export const info = {
             title: "Debug et optimisation d'un site portfolio",
             live: "https://manuel26190.github.io/Debugger-et-optimiser-un-site-de-photographe/",
             source: "https://github.com/Manuel26190/Debugger-et-optimiser-un-site-de-photographe",
-            // image: mock3
+            image: projet5 
         },
         {
             title: "Application web de location immobilière avec React",
-            live: "#",
+            live: imageP6,
             source: "https://github.com/Manuel26190/Creer-une-application-web-de-location-immobiliere-avec-React",
-            // image: mock4
+            image: projet6
         },
         {
             title: "Développer le back-end d'un site de notation de livres",
-            live: "#",
+            live: imageP7,
             source: "https://github.com/Manuel26190/Developper-le-back-end-d-un-site-de-notation-de-livres",
-            //image: projet8
+            image: projet7
         },
         {
             title: "Blog carnet de voyage",
