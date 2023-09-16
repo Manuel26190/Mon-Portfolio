@@ -7,8 +7,9 @@
         font-size: 2em;
     }
     .box-image{    
-        object-fit: contain;
-        width: 40em;    
+        object-fit: cover;
+        width: 35em;
+        height: 22em;    
         border-radius: 1em;
         border: 10px solid grey;    
     }

@@ -8,9 +8,10 @@
   font-size: 2em;
 }
 .box-first-container .box-image {
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 40em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 35em;
+  height: 22em;
   border-radius: 1em;
   border: 10px solid grey;
 }
