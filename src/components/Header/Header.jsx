@@ -4,8 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon, faHouse } from '@fortawesome/free-solid-svg-icons';
 import { Link, useLocation } from 'react-router-dom';
 
-
-
 function Header () {
 
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -30,6 +28,7 @@ function Header () {
                 <ul>
                     <li><Link to="/" className={currentPage === '/'? 'nav-link active faHouse' : 'nav-link faHouse'}><FontAwesomeIcon icon={faHouse} /></Link></li>
                     <li><Link to="/about" className={currentPage === '/about'? 'nav-link active' : 'nav-link'}>A propos de moi</Link></li>
+                    {/* <li><Link to="/" style={{fontSize: "3em"}} className={currentPage === '/'? 'nav-link active faHouse' : 'nav-link faHouse'}>mf</Link></li> */}
                     <li><Link to="/portfolio" className={currentPage === '/portfolio'? 'nav-link active' : 'nav-link'}>Portfolio</Link></li>
                     <li><Link to="/contact" className={currentPage === '/contact'? 'nav-link active' : 'nav-link'}>Contact</Link></li>
                     <li>
