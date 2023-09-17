@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .box-first-container{
     display: flex;
     flex-direction: column;
@@ -11,7 +13,7 @@
         width: 41em;
         height: 25em;    
         border-radius: 1em;
-        border: 10px solid grey;    
+        border: 10px solid rgb(0, 255, 164);    
     }
     .portfolio{
         display: flex;
@@ -22,7 +24,7 @@
         .icon-box{
             border: 2px solid grey;
             border-radius: 25px;
-            padding: 0.5em;            
+            padding: 0.6em;                        
             .fa-laptop{
                 margin-right: 0.3em;
             }
@@ -32,5 +34,7 @@
         }        
     }
 }
+
+ 
 
 

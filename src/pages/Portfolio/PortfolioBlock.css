@@ -1,3 +1,7 @@
+.shadowed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
 .box-first-container {
   display: flex;
   flex-direction: column;
@@ -13,7 +17,7 @@
   width: 41em;
   height: 25em;
   border-radius: 1em;
-  border: 10px solid grey;
+  border: 10px solid rgb(0, 255, 164);
 }
 .box-first-container .portfolio {
   display: flex;
@@ -25,7 +29,7 @@
 .box-first-container .portfolio .icon-box {
   border: 2px solid grey;
   border-radius: 25px;
-  padding: 0.5em;
+  padding: 0.6em;
 }
 .box-first-container .portfolio .icon-box .fa-laptop {
   margin-right: 0.3em;
