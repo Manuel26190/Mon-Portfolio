@@ -14,7 +14,7 @@
 .box-first-container .box-image {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 41em;
+  width: 40em;
   height: 25em;
   border-radius: 1em;
   border: 10px solid rgb(0, 255, 164);

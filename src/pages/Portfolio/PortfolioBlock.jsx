@@ -9,9 +9,9 @@ function PortfolioBlock(props) {
    const {image, live, source, title,} = props;
    return (
       <Box className={'box-first-container'} >         
-         <a href="http://www.thedresscounter.com/" target="_blank">
+         <a href={live} target="_blank">
   <div class="container">
-    <div class="background-img">
+    <div class="background-img" style={{ backgroundImage: `url(${image})` }}>
       <div class="box">
         <span></span>
         <span></span>
@@ -24,13 +24,8 @@ function PortfolioBlock(props) {
       </div>
     </div>
   </div>
-
-  </a>
-         <Box  component={'img'} className='box-image' src={image} alt={'mockup'}/>         
-         <Box className={'portfolio'} py={'2rem'}>
-            <Box className={'icon-box'} p={1}>
-               <IconLink link={live} title={'Live Demo'} icon={faLaptop} />
-            </Box>
+  </a>                  
+         <Box className={'portfolio'} py={'2rem'}>            
             <Box className={'icon-box'} p={1} >
                <IconLink link={source} title={'Source Code'} icon={faCode} />
             </Box>
