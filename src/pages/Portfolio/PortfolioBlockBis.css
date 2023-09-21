@@ -18,8 +18,8 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   position: relative;
 }
 
-.content h2 {
-  font-size: 1.3em;
+.content .portfolio-title {
+  font-size: 1.6em;
   margin: 0;
 }
 
@@ -63,7 +63,7 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   right: 15px;
   bottom: 15px;
   border: 1px solid #f0a591;
-  padding: 20px;
+  padding: 0.4em;
   text-align: center;
   box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
 }

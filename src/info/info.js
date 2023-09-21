@@ -87,37 +87,43 @@ export const info = {
             title: "Page d'accueil d'une agence de voyage",
             live: "https://manuel26190.github.io/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS/", 
             source: "https://github.com/Manuel26190/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS", 
-            image: projet2
+            image: projet2,
+            description: "Ce projet consistait a intégrer l'interface d'un site de recherche d'hébergement par ville avec du code HTML et CSS, à partir d'une maquette Figma, en collaboration avec la CTO et l’UI designer, la page est responsive, elle s'adapte a toutes tailles d'écrans"
         },
         {
             title: "Page web dynamique avec JavaScript",
             live: imageP3, 
             source: "https://github.com/Manuel26190/Creer-une-page-web-dynamique-avec-javaScript",
-            image: projet3
+            image: projet3,
+            description: "Ce projet était de gérer la partie front-end au sein d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. La page est dynamique grâce à la manipulation du DOM avec java script, des requêtes get / post /delette API sont égalements effectuées pour permettre la connection et la mise a jour des données"
         },
         {
             title: "Debug et optimisation d'un site portfolio",
             live: "https://manuel26190.github.io/Debugger-et-optimiser-un-site-de-photographe/",
             source: "https://github.com/Manuel26190/Debugger-et-optimiser-un-site-de-photographe",
-            image: projet5 
+            image: projet5,
+            description:"Dans ce projet il m'a été demandé de debugger, d'améliorer le référencement SEO et la performance d'un site web, grâce à l'utilisation de différents outils (navigateur, extension, google)" 
         },
         {
             title: "Application web de location immobilière avec React",
             live: imageP6,
             source: "https://github.com/Manuel26190/Creer-une-application-web-de-location-immobiliere-avec-React",
-            image: projet6
+            image: projet6,
+            description: "Le but de ce projet était de créer une application immobilère avec React, de gérer les différentes routes avec react router et de créer des animation grâce à Sass"
         },
         {
             title: "Développer le back-end d'un site de notation de livres",
             live: imageP7,
             source: "https://github.com/Manuel26190/Developper-le-back-end-d-un-site-de-notation-de-livres",
-            image: projet7
+            image: projet7,
+            description:"Toujours avec React, à partir du code front-end, j'ai développé la partie back-end d'un site de référencement et de notation de livres, grâce à Node.js et Express.js"
         },
         {
             title: "Blog carnet de voyage",
             live: "#",
             source: "#",
-            // image: mock5
+            // image: mock5,
+            description:"Porjet de création d'un blog de récit de voyage avec du code HTML et CSS"
         }
     ]
 }
