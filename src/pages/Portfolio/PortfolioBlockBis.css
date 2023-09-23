@@ -14,8 +14,25 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid #2a3cad;
-  box-shadow: 0px 0px 5px #2a3cad;
+  box-shadow: 1px 1px 5px #2a3cad;
   position: relative;
+}
+
+.background-img .portfolio-descritpion {
+  transition: transform 2000ms ease-in-out;
+}
+
+.background-img:hover .portfolio-descritpion {
+  transform: translateY(-120px);
+}
+
+.portfolio-title {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+.background-img:hover .portfolio-title {
+  opacity: 0.2;
 }
 
 .content .portfolio-title {

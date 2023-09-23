@@ -10,16 +10,16 @@ function PortfolioBlock(props) {
    return (
       <Box className={'box-first-container'} >         
          <a href={live} target="_blank" rel='noreferrer'>
-         <div class="container">
-            <div class="background-img" style={{ backgroundImage: `url(${image})` }}>
-               <div class="box">
+         <div className="container">
+            <div className="background-img" style={{ backgroundImage: `url(${image})` }}>
+               <div className="box">
                   <span></span>
                   <span></span>
                   <span></span>
                   <span className='span-text'></span>
-                  <div class="content">
+                  <div className="content">
                      <p className='portfolio-title'>{title}</p>
-                     <p>{description}</p>
+                     <p className='portfolio-descritpion'>{description}</p>
                   </div>        
                </div>
             </div>
