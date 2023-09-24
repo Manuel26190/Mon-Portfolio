@@ -2,7 +2,7 @@ import React from 'react';
 import IconLink from "./IconLink";
 import {Box} from "@mui/material";
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import './PortfolioBlockBis.css';
+import './PortfolioBlock.css';
 
 
 function PortfolioBlock(props) {

@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+
+.box-first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 2em;
+    }
+    .box-image{    
+        object-fit: cover;
+        width: 40em;
+        height: 25em;    
+        border-radius: 1em;
+        border: 10px solid rgb(0, 255, 164);    
+    }
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+        font-size: 1.5em;
+        .icon-box{
+            border: 2px solid grey;
+            border-radius: 25px;
+            padding: 0.6em;                        
+            .fa-laptop{
+                margin-right: 0.3em;
+            }
+            .fa-code{
+                margin-right: 0.3em;
+            }
+        }        
+    }
+}
+
+ 
+
+
