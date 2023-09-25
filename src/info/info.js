@@ -37,7 +37,7 @@ export const info = {
         }
     ],
    
-    bio: "Bonjour! Je suis Manuel. Je suis développeur Front-end. J'ai étudié chez OpenClassrooms, j'aime les sports en montagne et je crois que le métier de développeur a de belles années devant lui notamment avec l'arrivée de l'intéligence artificielle ",
+    bio: "Bonjour! Je suis Manuel. Je suis développeur Front-end. J'ai étudié chez OpenClassrooms, j'aime les sports en montagne et je crois que le métier de développeur a de belles années devant lui notamment avec l'arrivée de l'intélligence artificielle ",
     skills:
         {
             competentEn: ['javascript', 'html5', 'css3', 'react', 'github', 'sass', 'figma'],
@@ -86,7 +86,7 @@ export const info = {
             live: "https://manuel26190.github.io/Debugger-et-optimiser-un-site-de-photographe/",
             source: "https://github.com/Manuel26190/Debugger-et-optimiser-un-site-de-photographe",
             image: projet5,
-            description:"Le travail ici fut de debugger, d'améliorer le référencement SEO et la performance d'un site web, grâce à l'utilisation de différents outils (navigateur, extensions, Google Analytics / Search Console,...)" 
+            description:"Le travail ici fut de debugger, d'améliorer le référencement SEO, la performance et l'accessibilité d'un site web, grâce à l'utilisation de différents outils (navigateur, extensions, Google Analytics / Search Console,...)" 
         },
         {
             title: "Application web de location immobilière avec React",
