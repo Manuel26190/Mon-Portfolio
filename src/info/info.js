@@ -86,7 +86,7 @@ export const info = {
             live: "https://manuel26190.github.io/Debugger-et-optimiser-un-site-de-photographe/",
             source: "https://github.com/Manuel26190/Debugger-et-optimiser-un-site-de-photographe",
             image: projet5,
-            description:"Le travail ici fut de debugger, d'améliorer le référencement SEO, la performance et l'accessibilité d'un site web, grâce à l'utilisation de différents outils (navigateur, extensions, Google Analytics / Search Console,...)" 
+            description:"Le travail ici fut de debugger, d'améliorer le référencement SEO, la performance et l'accessibilité d'un site web, grâce à l'utilisation de différents outils (navigateur, wave, Google Analytics / Search Console,...)" 
         },
         {
             title: "Application web de location immobilière avec React",
