@@ -72,7 +72,7 @@ export const info = {
             live: "https://manuel26190.github.io/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS/", 
             source: "https://github.com/Manuel26190/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS", 
             image: projet2,
-            description: "Projet qui consiste a intégrer l'interface d'un site de recherche d'hébergement par ville, avec HTML et CSS. A partir d'une maquette Figma, en collaboration avec la CTO et l’UI designer, la page est responsive, elle s'adapte a toutes tailles d'écrans"
+            description: "Projet qui consiste a intégrer l'interface d'un site de recherche d'hébergement par ville, avec HTML et CSS. A partir d'une maquette Figma, en collaboration avec la CTO et l’UI designer. La page est responsive, elle s'adapte a toutes tailles d'écrans"
         },
         {
             title: "Page web dynamique avec JavaScript",
