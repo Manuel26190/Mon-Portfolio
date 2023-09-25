@@ -19,7 +19,7 @@ root.render(
       <Router>
           <Header />
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/home-portfolio" element={<HomePage />} />
                 <Route path="/about" element={<AboutMePage />} />
                 <Route path="/portfolio" element={<Portfolio />} />                
                 <Route path="/contact" element={<Contact />} />                
