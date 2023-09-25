@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 HTML CSSResult Skip Results Iframe
 EDIT ON
 *{
@@ -5,6 +7,31 @@ EDIT ON
   padding:0;
 }
 
+.box-first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 2em;
+    }    
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+        font-size: 1.5em;
+        .icon-box{
+            border: 2px solid grey;
+            border-radius: 25px;
+            padding: 0.6em;             
+            
+            .fa-code{
+                margin-right: 0.3em;
+            }
+        }        
+    }
+}
 .container{  
     padding-top: 2em;
     }
@@ -16,9 +43,10 @@ EDIT ON
   background-size: cover;  
   border: 1px solid #2a3cad;  
   box-shadow: 1px 1px 5px #2a3cad;
-  position: relative;
-  
+  position: relative;  
 }
+//Animation déplacement du texte description des projets vers le haut axe Y
+// et opacity 0.1 sur le titre
 .background-img .portfolio-descritpion {
   transition: transform 2000ms ease-in-out;
 }
@@ -27,15 +55,18 @@ EDIT ON
 }
 .portfolio-title{
   opacity: 1;
-  transition: opacity 1000ms;
+  transition: opacity 2000ms ease-out;
 }
 .background-img:hover .portfolio-title{
-  opacity: 0.1; 
+  opacity: 0; 
 }
 
 .content .portfolio-title{ 
   font-size:1.6em;
   margin: 0;   
+}
+.content .portfolio-descritpion{
+  font-size: 1.2em;
 }
 .box{
   position: absolute;
@@ -69,8 +100,6 @@ EDIT ON
   left:-50%;
   transform: skewX(-5deg);
 }
-
-
 .box .content{
   position:absolute;
   top:15px;
@@ -91,8 +120,7 @@ EDIT ON
   width: 100%;
   height: 100%;
   display: block;
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
 }
 
 .box span:nth-child(1)

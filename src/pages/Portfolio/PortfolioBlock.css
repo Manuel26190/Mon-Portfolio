@@ -1,6 +1,35 @@
+.shadowed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
 HTML CSSResult Skip Results Iframe EDIT ON * {
   margin: 0;
   padding: 0;
+}
+
+.box-first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-first-container h1 {
+  font-size: 2em;
+}
+.box-first-container .portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  font-size: 1.5em;
+}
+.box-first-container .portfolio .icon-box {
+  border: 2px solid grey;
+  border-radius: 25px;
+  padding: 0.6em;
+}
+.box-first-container .portfolio .icon-box .fa-code {
+  margin-right: 0.3em;
 }
 
 .container {
@@ -28,16 +57,20 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
 
 .portfolio-title {
   opacity: 1;
-  transition: opacity 1000ms;
+  transition: opacity 2000ms ease-out;
 }
 
 .background-img:hover .portfolio-title {
-  opacity: 0.1;
+  opacity: 0;
 }
 
 .content .portfolio-title {
   font-size: 1.6em;
   margin: 0;
+}
+
+.content .portfolio-descritpion {
+  font-size: 1.2em;
 }
 
 .box {

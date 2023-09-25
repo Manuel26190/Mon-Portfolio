@@ -4,7 +4,6 @@ import {Box} from "@mui/material";
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import './PortfolioBlock.css';
 
-
 function PortfolioBlock(props) {
    const {image, live, source, title, description} = props;
    return (
