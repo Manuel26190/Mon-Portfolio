@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import './styles/index.css';
 import './index.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Header from './components/Header/Header';

@@ -26,7 +26,7 @@ function Header () {
         <div className="div-header">           
             <nav>
                 <ul>
-                    <li><Link to="/" className={currentPage === '/'? 'nav-link active faHouse' : 'nav-link faHouse'}><FontAwesomeIcon icon={faHouse} /></Link></li>
+                    <li><Link to="/home-portfolio" className={currentPage === '/'? 'nav-link active faHouse' : 'nav-link faHouse'}><FontAwesomeIcon icon={faHouse} /></Link></li>
                     <li><Link to="/about" className={currentPage === '/about'? 'nav-link active' : 'nav-link'}>A propos de moi</Link></li>
                     {/* <li><Link to="/" style={{fontSize: "3em"}} className={currentPage === '/'? 'nav-link active faHouse' : 'nav-link faHouse'}>mf</Link></li> */}
                     <li><Link to="/portfolio" className={currentPage === '/portfolio'? 'nav-link active' : 'nav-link'}>Portfolio</Link></li>
