@@ -6,6 +6,7 @@ import projet7 from "../assets/homep7.png";
 import imageP3 from "../assets/homep3.png";
 import imageP6 from "../assets/homep6.png";
 import imageP7 from "../assets/homep7.png";
+import image8 from "../assets/homep2.png";
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 /*https://gradientgenerator.paytonpierce.dev/ */
@@ -104,9 +105,9 @@ export const info = {
         },
         {
             title: "Blog de carnet de voyage",
-            live: "#",
-            source: "#",
-            // image: mock5,
+            live: "https://manuel26190.github.io/Blog-de-voyage/",
+            source: "https://github.com/Manuel26190/Blog-de-voyage/settings/pages",
+            image: image8,
             description:"Projet de création d'un blog de récit de voyage avec du code HTML et CSS"
         }
     ]
