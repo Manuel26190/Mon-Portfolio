@@ -6,10 +6,9 @@ import projet7 from "../assets/homep7.png";
 import imageP3 from "../assets/homep3.png";
 import imageP6 from "../assets/homep6.png";
 import imageP7 from "../assets/homep7.png";
-import image8 from "../assets/homep2.png";
+import image8 from "../assets/homeBlogVoyage.png";
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
-/*https://gradientgenerator.paytonpierce.dev/ */
 
 export const info = {
     firstName: "Manuel",
