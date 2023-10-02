@@ -15,7 +15,7 @@ export const info = {
     lastName: "Faure",
 
     initials: "mf", 
-    position: "développeur Front-end",    
+    position: "développeur Front-end junior",    
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
     miniBio: [
@@ -37,33 +37,33 @@ export const info = {
         }
     ],
    
-    bio: "Bonjour! Je suis Manuel. Je suis développeur Front-end. J'ai étudié chez OpenClassrooms, j'aime les sports en montagne et je crois que le métier de développeur a de belles années devant lui notamment avec l'arrivée de l'intélligence artificielle ",
+    bio: "Avec plus de 20 ans d'expérience dans des domaines professionnels diversifiés, j'ai acquis une vaste gamme de connaissances et de compétences qui sont applicables à de nombreux métiers. Mon parcours professionnel a mis en lumière des qualités essentielles telles que l'autonomie, l'organisation et la capacité à travailler en équipe. Ma transition vers le développement web s'est déroulée de manière naturelle, alimentée par une passion profonde pour le monde du numérique. En tant que personne créative, je suis constamment prêt à relever les défis liés à la programmation et à la conception de fonctionnalités innovantes. Je trouve particulièrement gratifiant de contribuer au développement d'interfaces web, où chaque détail compte. Ma détermination, ma perspicacité et ma fiabilité sont des traits de caractère qui guident mon travail au quotidien. Ma curiosité insatiable et ma volonté constante de progresser sont des atouts essentiels. Je suis prêt à m'adapter aux processus et aux outils spécifiques utilisés pour mener à bien les projets de l'entreprise.",
     skills:
         {
-            competentEn: ['javascript', 'html5', 'css3', 'react', 'github', 'sass', 'figma'],
-            familiariseAvec: ['node.js', 'express.js', 'PHP', 'mongoDB']
+            competentEn: ['javaScript', 'HTML5', 'CSS3', 'React', 'GitHub', 'Sass', 'Figma', 'jQuery'],
+            familiariseAvec: ['Node.js', 'Express.js', 'PHP', 'MongoDB']
         }
     ,
     hobbies: [
         {
-            label: 'le trail',
-            emoji: '🌄🏃‍♂‍'
+            label: 'le Trail',
+            emoji: '🏃‍♂‍'
         },
         {
-            label: "l'astronomie",
-            emoji: '🪐🌌'
+            label: "l'Astronomie",
+            emoji: '🪐'
         },
         {
-            label: 'le cinéma',
+            label: 'le Cinéma',
             emoji: '🎥'
         },
         {
-            label: 'la cuisine',
-            emoji: '🌶🍰'
+            label: 'la Cuisine',
+            emoji: '🍰'
         },
         {
-            label: 'la musique',
-            emoji: '🎸🎹'
+            label: 'Le Piano',
+            emoji: '🎹'
         }
     ],
     portfolio: [ 
@@ -72,7 +72,7 @@ export const info = {
             live: "https://manuel26190.github.io/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS/", 
             source: "https://github.com/Manuel26190/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS", 
             image: projet2,
-            description: "Projet qui consiste a intégrer l'interface d'un site de recherche d'hébergement par ville, avec HTML et CSS. A partir d'une maquette Figma, en collaboration avec la CTO et l’UI designer. La page est responsive, elle s'adapte a toutes tailles d'écrans"
+            description: "Projet qui consiste à intégrer l'interface d'un site de recherche d'hébergement par ville, avec HTML et CSS. A partir d'une maquette Figma, en collaboration avec la CTO et l’UI designer. La page est responsive, elle s'adapte à toutes tailles d'écrans"
         },
         {
             title: "Page web dynamique avec JavaScript",
