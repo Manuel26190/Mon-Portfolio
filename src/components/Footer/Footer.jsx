@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer () {
     return (
-        <div>
+        <div className='footer-div'>
             <p>© 2023</p>
         </div>
     );

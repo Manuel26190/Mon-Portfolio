@@ -1,8 +1,13 @@
-div {
+.footer-div {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-div p {
+.footer-div p {
   font-size: 1.3em;
   text-align: center;
+  margin: 0;
 }/*# sourceMappingURL=Footer.css.map */
