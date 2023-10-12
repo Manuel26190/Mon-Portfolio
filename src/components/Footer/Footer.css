@@ -10,4 +10,16 @@
   font-size: 1.3em;
   text-align: center;
   margin: 0;
+}
+
+.footer-div-basic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.footer-div-basic p {
+  font-size: 1.3em;
+  text-align: center;
+  margin: 0;
 }/*# sourceMappingURL=Footer.css.map */

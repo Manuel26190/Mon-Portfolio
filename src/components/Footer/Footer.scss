@@ -11,3 +11,14 @@
         margin: 0;
     }
 }
+.footer-div-basic{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-bottom: 1em;
+    p{
+        font-size: 1.3em;
+        text-align: center;
+        margin: 0;
+    }
+}

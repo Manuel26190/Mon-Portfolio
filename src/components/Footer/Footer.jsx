@@ -1,8 +1,13 @@
 import './Footer.css';
+import { useLocation} from 'react-router-dom';
 
 function Footer () {
+
+    const location = useLocation();
+    const currentPage = location.pathname;
+
     return (
-        <div className='footer-div'>
+        <div className={currentPage === '/portfolio' || currentPage === '/about' ? 'footer-div-basic' : 'footer-div'}>
             <p>© 2023</p>
         </div>
     );

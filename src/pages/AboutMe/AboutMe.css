@@ -1,6 +1,9 @@
 .aboutMe-div {
-  margin-top: 3em;
-  gap: 3.5em;
+  margin-top: 2.5em;
+  gap: 2.5em;
+  margin-bottom: 2.5em;
+  display: flex;
+  flex-direction: column;
 }
 .aboutMe-div p {
   font-size: 1.5em;
