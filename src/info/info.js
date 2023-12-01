@@ -37,10 +37,10 @@ export const info = {
         }
     ],
    
-    bio: "Avec plus de 20 ans d'expérience dans des domaines professionnels diversifiés, j'ai acquis une vaste gamme de connaissances et de compétences qui sont applicables à de nombreux métiers. Mon parcours professionnel a mis en lumière des qualités essentielles telles que l'autonomie, l'organisation et la capacité à travailler en équipe. Ma transition vers le développement web s'est déroulée de manière naturelle, alimentée par une passion profonde pour le monde du numérique. En tant que personne créative, je suis constamment prêt à relever les défis liés à la programmation et à la conception de fonctionnalités innovantes. Je trouve particulièrement gratifiant de contribuer au développement d'interfaces web, où chaque détail compte. Ma détermination, ma perspicacité et ma fiabilité sont des traits de caractère qui guident mon travail au quotidien. Ma curiosité insatiable et ma volonté constante de progresser sont des atouts essentiels. Je suis prêt à m'adapter aux processus et aux outils spécifiques utilisés pour mener à bien les projets de l'entreprise.",
+    bio: "En reconversion professionnelle, ma transition vers le développement web s'est déroulée de manière naturelle, alimentée par une passion profonde pour le monde du numérique. En tant que personne créative, je suis constamment prêt à relever les défis liés à la programmation et à la conception de fonctionnalités innovantes. Je trouve particulièrement gratifiant de contribuer au développement d'interfaces web, où chaque détail compte. Ma curiosité insatiable et ma volonté constante de progresser sont des atouts essentiels. Je suis prêt à m'adapter aux processus et aux outils spécifiques utilisés pour mener à bien les projets de l'entreprise.",
     skills:
         {
-            competentEn: ['javaScript', 'HTML5', 'CSS3', 'React', 'GitHub', 'Sass', 'Figma', 'jQuery'],
+            competentEn: ['javaScript', 'HTML5', 'CSS3', 'React', 'GitHub', 'Sass', 'Figma', 'jQuery', 'Ubuntu'],
             familiariseAvec: ['Node.js', 'Express.js', 'PHP', 'MongoDB']
         }
     ,

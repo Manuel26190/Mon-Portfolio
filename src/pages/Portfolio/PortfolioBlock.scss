@@ -24,7 +24,7 @@ EDIT ON
         .icon-box{
             border: 2px solid grey;
             border-radius: 25px;
-            padding: 0.6em;             
+            padding: 0.6em;            
             
             .fa-code{
                 margin-right: 0.3em;
@@ -41,8 +41,8 @@ EDIT ON
   border-radius: 1em;  
   background-repeat: no-repeat;
   background-size: cover;  
-  border: 1px solid #2a3cad;  
-  box-shadow: 1px 1px 5px #2a3cad;
+  //border: 1px solid #2a3cad;  
+  //box-shadow: 1px 1px 5px #2a3cad;
   position: relative;  
 }
 //Animation déplacement du texte description des projets vers le haut axe Y
@@ -56,127 +56,133 @@ EDIT ON
 .portfolio-title{
   opacity: 1;
   transition: opacity 1000ms ease-out;
+  text-align: center;
 }
 .background-img:hover .portfolio-title{
   opacity: 0; 
 }
 
 .content .portfolio-title{ 
-  font-size:1.6em;
-  margin: 0;   
+  font-size:1.8em;
+  margin: 0;
+  padding: 0.3em;  
+  border: 6px double white; 
+  border-radius: 0.2em;
 }
 .content .portfolio-descritpion{
-  font-size: 1.2em;
+  font-size: 1.3em;
+  text-align: center;
 }
 .box{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 20em;
+  width: 28em;
   height: 20em;
-  background: rgb(17 24 69 / 91%);
+  //background: rgb(17 24 69 / 91%);
+  background: black;
+  opacity: 0.8;
   box-sizing: border-box;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgb(23, 32, 90);
-  border: 2px solid #2a3cad;
+  //box-shadow: 0 20px 50px rgb(23, 32, 90);
+  //border: 2px solid #2a3cad;
   color: white;
-  padding: 2em;  
+  padding: 2em; 
+  border-radius: 0.5em; 
 }
 
-.box:before{
-  content: '';
-  position:absolute;
-  top:0;
-  left:-100%;
-  width:100%;
-  height:100%;
-  background: rgba(255,255,255,0.1);
-  transition:0.5s;
-  pointer-events: none;
-}
+// .box:before{
+//   content: '';
+//   position:absolute;
+//   top:0;
+//   left:-100%;
+//   width:100%;
+//   height:100%;
+//   background: rgba(255,255,255,0.1);
+//   transition:0.5s;
+//   pointer-events: none;
+// }
 //feuille transparente qui traverse la zone de title et description
-.box:hover:before{
-  left:-50%;
-  transform: skewX(-5deg);
-}
-.box .content{
-  position:absolute;
-  top:15px;
-  left:15px;
-  right:15px;
-  bottom:15px;
-  border:1px solid #f0a591;
-  padding:0.4em;
-  text-align:center;
-  box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+// .box:hover:before{
+//   left:-50%;
+//   transform: skewX(-5deg);
+// }
+// .box .content{
+//   position:absolute;
+//   top:15px;
+//   left:15px;
+//   right:15px;
+//   bottom:15px;  
+//   text-align:center;
+//   box-shadow: 0 5px 10px rgba(9,0,0,0.5);
   
-}
+// }
 
-.box span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  box-sizing: border-box;  
-}
+// .box span{
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   display: block;
+//   box-sizing: border-box;  
+// }
 
-.box span:nth-child(1)
-{
-  transform:rotate(0deg);
-}
+// .box span:nth-child(1)
+// {
+//   transform:rotate(0deg);
+// }
 
-.box span:nth-child(2)
-{
-  transform:rotate(90deg);
-}
+// .box span:nth-child(2)
+// {
+//   transform:rotate(90deg);
+// }
 
-.box span:nth-child(3)
-{
-  transform:rotate(180deg);
-}
+// .box span:nth-child(3)
+// {
+//   transform:rotate(180deg);
+// }
 
-.box span:nth-child(4)
-{
-  transform:rotate(270deg);
+// .box span:nth-child(4)
+// {
+//   transform:rotate(270deg);
   
-}
+// }
 
-.box span:before
-{
-  content: '';
-  position: absolute;
-  width:100%;
-  height: 2px;
-  background: #50dfdb;
-  animation: animate 4s linear infinite;
-}
+// .box span:before
+// {
+//   content: '';
+//   position: absolute;
+//   width:100%;
+//   height: 2px;
+//   background: #50dfdb;
+//   animation: animate 4s linear infinite;
+// }
 
-@keyframes animate {
-  0% {
-  transform:scaleX(0);
-  transform-origin: left;
-  }
-  50%
-  {
-    transform:scaleX(1);
-  transform-origin: left;
-  }
-  50.1%
-  {
-    transform:scaleX(1);
-  transform-origin: right;
+// @keyframes animate {
+//   0% {
+//   transform:scaleX(0);
+//   transform-origin: left;
+//   }
+//   50%
+//   {
+//     transform:scaleX(1);
+//   transform-origin: left;
+//   }
+//   50.1%
+//   {
+//     transform:scaleX(1);
+//   transform-origin: right;
     
-  }
+//   }
   
-  100%
-  {
-    transform:scaleX(0);
-  transform-origin: right;
+//   100%
+//   {
+//     transform:scaleX(0);
+//   transform-origin: right;
     
-  }
+//   }
   
   
-}
+// }
