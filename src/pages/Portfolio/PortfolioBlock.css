@@ -47,20 +47,41 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
 
 .background-img .portfolio-descritpion {
   transition: transform 2000ms ease-out;
+  opacity: 0;
+}
+
+@keyframes animate {
+  from {
+    transform: translateY(50%);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+.content .portfolio-descritpion {
+  font-size: 1.3em;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1000ms ease-out;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); /* Pour centrer verticalement */
 }
 
 .background-img:hover .portfolio-descritpion {
-  transform: translateY(-30%);
+  opacity: 1;
+  animation: animate 2s forwards;
 }
 
 .portfolio-title {
   opacity: 1;
-  transition: opacity 1000ms ease-out;
+  transition: opacity 1000ms, transform 2000ms ease-out;
   text-align: center;
 }
 
 .background-img:hover .portfolio-title {
   opacity: 0;
+  transform: translateY(-30%);
 }
 
 .content .portfolio-title {
@@ -71,17 +92,12 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   border-radius: 0.2em;
 }
 
-.content .portfolio-descritpion {
-  font-size: 1.3em;
-  text-align: center;
-}
-
 .box {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 28em;
+  width: 30em;
   height: 20em;
   background: black;
   opacity: 0.8;
