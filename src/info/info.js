@@ -72,21 +72,21 @@ export const info = {
             live: "https://manuel26190.github.io/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS/", 
             source: "https://github.com/Manuel26190/Creer-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-et-CSS", 
             image: projet2,
-            description: "Projet qui consiste à intégrer l'interface d'un site de recherche d'hébergement par ville, avec HTML et CSS. A partir d'une maquette Figma, en collaboration avec la CTO et l’UI designer. La page est responsive, elle s'adapte à toutes tailles d'écrans"
+            description: "Intégration de l'interface d'un site de recherche d'hébergement par ville, avec HTML et CSS. A partir d'une maquette Figma, en collaboration avec la CTO et l’UI designer. La page est responsive, elle s'adapte à toutes tailles d'écrans"
         },
         {
             title: "Page web dynamique avec JavaScript",
             live: imageP3, 
             source: "https://github.com/Manuel26190/Creer-une-page-web-dynamique-avec-javaScript",
             image: projet3,
-            description: "Projet de gestion de la partie front-end au sein d’une équipe, qui travaille sur la conception du site portfolio d’une architecte d’intérieur. La page est dynamique grâce à la manipulation du DOM avec java script, des requêtes API get / post /delette sont égalements effectuées pour permettre la connection et la mise a jour des données"
+            description: "Projet de gestion de la partie front-end au sein d’une équipe, qui développe un site portfolio d’une architecte d’intérieur. La page est dynamique grâce à la manipulation du DOM avec java script, des requêtes API sont effectuées pour importer et mettre à jour les données"
         },
         {
             title: "Debug et optimisation d'un site portfolio",
             live: "https://manuel26190.github.io/Debugger-et-optimiser-un-site-de-photographe/",
             source: "https://github.com/Manuel26190/Debugger-et-optimiser-un-site-de-photographe",
             image: projet5,
-            description:"Le travail ici fut de debugger, d'améliorer le référencement SEO, la performance et l'accessibilité d'un site web, grâce à l'utilisation de différents outils (navigateur, wave, Google Analytics / Search Console,...)" 
+            description:"Projet de debug du code, amélioration du référencement SEO, de la performance et de l'accessibilité du site web, grâce à l'utilisation de différents outils (navigateur, wave, Google Analytics / Search Console,...)" 
         },
         {
             title: "Application web de location immobilière avec React",

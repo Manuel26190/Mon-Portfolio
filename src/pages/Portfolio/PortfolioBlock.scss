@@ -48,14 +48,14 @@ EDIT ON
 //Animation déplacement du texte description des projets vers le haut axe Y
 // et opacity 0.1 sur le titre
 .background-img .portfolio-descritpion {
-  transition: transform 2000ms ease-in-out;
+  transition: transform 2000ms ease-out;
 }
 .background-img:hover .portfolio-descritpion{
-  transform: translateY(-100px);
+  transform: translateY(-30%);
 }
 .portfolio-title{
   opacity: 1;
-  transition: opacity 2000ms ease-out;
+  transition: opacity 1000ms ease-out;
 }
 .background-img:hover .portfolio-title{
   opacity: 0; 
