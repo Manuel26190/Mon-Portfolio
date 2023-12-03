@@ -10,23 +10,23 @@
             justify-content: center;
             gap: 6em;
             padding-inline-start: 0;
-            list-style-type: none;            
+            list-style-type: none;                        
             li{
                 display: flex;
-                align-items: baseline;                
+                align-items: baseline;                                
             }          
             .nav-link{
                 padding-bottom: 7px;
                 text-decoration: none;
                 font-size: 1.3em;
-                transition: transform 500ms ease-in-out;
+                transition: transform 500ms ease-in-out;              
                 
                 &:hover{
                     transform: scale(1.2) translateY(-10%);                    
                 }                                                               
              }.nav-link, .faHouse{    
                 font-size: 1.3em;
-                color:$primary-darkTheme-color;
+                color: white;                
             }
             .theme-btn{
                 border: none;

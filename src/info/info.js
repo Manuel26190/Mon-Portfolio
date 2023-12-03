@@ -4,7 +4,7 @@ import projet5 from "../assets/homep5.png";
 import projet6 from "../assets/homep6.png";
 import projet7 from "../assets/homep7.png";
 import imageP3 from "../assets/homep3.png";
-import imageP6 from "../assets/homep6.png";
+//import imageP6 from "../assets/homep6.png";
 import imageP7 from "../assets/homep7.png";
 import image8 from "../assets/homeBlogVoyage.png";
 
@@ -37,7 +37,7 @@ export const info = {
         }
     ],
    
-    bio: "En reconversion professionnelle, ma transition vers le développement web s'est déroulée de manière naturelle, alimentée par une passion profonde pour le monde du numérique. En tant que personne créative, je suis constamment prêt à relever les défis liés à la programmation et à la conception de fonctionnalités innovantes. Je trouve particulièrement gratifiant de contribuer au développement d'interfaces web, où chaque détail compte. Ma curiosité insatiable et ma volonté constante de progresser sont des atouts essentiels. Je suis prêt à m'adapter aux processus et aux outils spécifiques utilisés pour mener à bien les projets de l'entreprise.",
+    bio: "En reconversion professionnelle, ma transition vers le développement web s'est déroulée de manière naturelle. En tant que personne créative, je suis constamment prêt à relever les défis liés à la programmation et à la conception de fonctionnalités innovantes. Je trouve particulièrement gratifiant de contribuer au développement d'interfaces web, où chaque détail compte. Ma curiosité insatiable et ma volonté constante de progresser sont des atouts essentiels. Je suis prêt à m'adapter aux processus et aux outils spécifiques utilisés pour mener à bien les projets de l'entreprise.",
     skills:
         {
             competentEn: ['javaScript', 'HTML5', 'CSS3', 'React', 'GitHub', 'Sass', 'Figma', 'jQuery', 'Ubuntu'],
@@ -90,7 +90,7 @@ export const info = {
         },
         {
             title: "Application web de location immobilière avec React",
-            live: imageP6,
+            live: "https://manuel26190.github.io/home-react/",
             source: "https://github.com/Manuel26190/Creer-une-application-web-de-location-immobiliere-avec-React",
             image: projet6,
             description: "Création d'une application immobilère avec React, gestion des différentes routes avec react router et création d'animation CSS avec Sass"

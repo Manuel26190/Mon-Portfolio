@@ -6,17 +6,19 @@ import { Link, useLocation } from 'react-router-dom';
 
 function Header () {
 
+
+    // Gestion du dark mode
     const [isDarkMode, setIsDarkMode] = useState(false);
       
     const toggleTheme = () => {
         setIsDarkMode(!isDarkMode);        
-        document.body.style.backgroundColor = isDarkMode ? '#f8f8f8' : '#1f1f1f';
-        document.body.style.color = isDarkMode ? '#1f1f1f' : '#f8f8f8';
+        document.body.style.backgroundColor = isDarkMode ? '#1f1f1f' : '#f8f8f8' ;
+        document.body.style.color = isDarkMode ? '#f8f8f8' : '#1f1f1f';
       };
     
       const links = document.querySelectorAll('a');
       links.forEach(link => {
-        link.style.color = isDarkMode ? '#f8f8f8' : '#1f1f1f';
+        link.style.color = isDarkMode ? '#1f1f1f' : '#f8f8f8';
       });
     
     const location = useLocation();
@@ -31,8 +33,8 @@ function Header () {
                     <li><Link to="/portfolio" className={currentPage === '/portfolio'? 'nav-link active' : 'nav-link'}>Portfolio</Link></li>
                     <li><Link to="/contact" className={currentPage === '/contact'? 'nav-link active' : 'nav-link'}>Contact</Link></li>
                     <li>
-                        <button onClick={toggleTheme} className={isDarkMode ? "theme-btn theme-mode" : "theme-btn"}>
-                            <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} />
+                        <button onClick={toggleTheme} className={isDarkMode ? "theme-btn" : "theme-btn theme-mode"}>
+                            <FontAwesomeIcon icon={isDarkMode ? faMoon : faSun} />
                         </button>
                     </li>
                 </ul>
