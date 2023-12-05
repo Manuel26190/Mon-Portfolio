@@ -40,75 +40,60 @@ EDIT ON
   height: 22em;    
   border-radius: 1em;  
   background-repeat: no-repeat;
-  background-size: cover;  
-  //border: 1px solid #2a3cad;  
-  //box-shadow: 1px 1px 5px #2a3cad;
+  background-size: cover; 
   position: relative;  
 }
+
 //Animation déplacement du texte description des projets vers le haut axe Y
 // et opacity 0.1 sur le titre
 .background-img .portfolio-descritpion {
-  transition: transform 2000ms ease-out;
+  //transition: transform 2000ms ease-out;
   opacity: 0;
-}
-
-@keyframes animate {
-  from {
-    transform: translateY(50%);
-  }
-  to {    
-    transform: translateY(-50%);
-  } 
 }
 
 .content .portfolio-descritpion {
   font-size: 1.3em;
   text-align: center;
   opacity: 0;
-  transition: opacity 1000ms ease-out;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%); /* Pour centrer verticalement */
+  transition: opacity 2000ms, transform 2000ms ease-out;
+  position: relative;    
 }
 
 .background-img:hover .portfolio-descritpion {  
-  opacity: 1;  
-  animation: animate 2s forwards;
+  opacity: 1;
+  transform: translateY(-150px);    
 }
 
 .portfolio-title{
   opacity: 1;
   transition: opacity 1000ms, transform 2000ms ease-out;  
   text-align: center;
+  margin-top: 1.4em;
 }
 .background-img:hover .portfolio-title{
   opacity: 0;
-  transform: translateY(-30%); 
+  transform: translateY(-100%); 
 }
-.content .portfolio-title{ // titre du projet
-  font-size:1.8em;
-  margin: 0;
+.content .portfolio-title{
+  font-size:2.5em;  
   padding: 0.3em;  
   border: 6px double white; 
-  border-radius: 0.2em;
+  border-radius: 0.5em;
 }
 .box{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 30em;
+  width: 38em;
   height: 20em;
-  //background: rgb(17 24 69 / 91%);
   background: black;
   opacity: 0.8;
   box-sizing: border-box;
   overflow: hidden;
-  //box-shadow: 0 20px 50px rgb(23, 32, 90);
-  //border: 2px solid #2a3cad;
   color: white;
-  padding: 2em; 
-  border-radius: 0.5em; 
+  padding: 2em;
+  border-radius: 0.7em; 
 }
 
 // .box:before{

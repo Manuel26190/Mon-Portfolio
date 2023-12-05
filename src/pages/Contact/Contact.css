@@ -41,12 +41,21 @@
   background: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
 }
 .form-div .contact-form .form-button {
-  border: none;
-  padding: 0.9em 1.5em 0.9em 1.5em;
-  border-radius: 0.5em;
-  font-size: 1em;
+  padding: 0.5em 2em 0.5em 2em;
+  border-radius: 2em;
+  font-size: 1.3em;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
   background-image: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
+  border: 4px double grey;
+  color: white;
+  cursor: pointer;
+  text-shadow: 1px 1px 4px black;
+  transition: 500ms ease-out;
+  transform: translateY(0%);
+}
+.form-div .contact-form .form-button:hover {
+  transform: translateY(-5%);
+  border-color: white;
 }
 
 @media (max-width: 1000px) {

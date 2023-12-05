@@ -3,7 +3,7 @@ import projet3 from "../assets/homep3.png";
 import projet5 from "../assets/homep5.png";
 import projet6 from "../assets/homep6.png";
 import projet7 from "../assets/homep7.png";
-import imageP3 from "../assets/homep3.png";
+//import imageP3 from "../assets/homep3.png";
 //import imageP6 from "../assets/homep6.png";
 import imageP7 from "../assets/homep7.png";
 import image8 from "../assets/homeBlogVoyage.png";
@@ -37,7 +37,7 @@ export const info = {
         }
     ],
    
-    bio: "En reconversion professionnelle, ma transition vers le développement web s'est déroulée de manière naturelle. En tant que personne créative, je suis constamment prêt à relever les défis liés à la programmation et à la conception de fonctionnalités innovantes. Je trouve particulièrement gratifiant de contribuer au développement d'interfaces web, où chaque détail compte. Ma curiosité insatiable et ma volonté constante de progresser sont des atouts essentiels. Je suis prêt à m'adapter aux processus et aux outils spécifiques utilisés pour mener à bien les projets de l'entreprise.",
+    bio: "En reconversion professionnelle, ma transition vers le développement web s'est déroulée de manière naturelle. En tant que personne créative, je suis constamment prêt à relever les défis liés à la programmation et à la conception de fonctionnalités innovantes. Je trouve particulièrement gratifiant de contribuer au développement d'interfaces web, où chaque détail compte. Je suis prêt à m'adapter aux processus et aux outils spécifiques utilisés pour mener à bien les projets de l'entreprise.",
     skills:
         {
             competentEn: ['javaScript', 'HTML5', 'CSS3', 'React', 'GitHub', 'Sass', 'Figma', 'jQuery', 'Ubuntu'],
@@ -76,7 +76,7 @@ export const info = {
         },
         {
             title: "Page web dynamique avec JavaScript",
-            live: imageP3, 
+            live: "https://manuel26190.github.io/Site-web-dynamique/FrontEnd/", 
             source: "https://github.com/Manuel26190/Creer-une-page-web-dynamique-avec-javaScript",
             image: projet3,
             description: "Projet de gestion de la partie front-end au sein d’une équipe, qui développe un site portfolio d’une architecte d’intérieur. La page est dynamique grâce à la manipulation du DOM avec java script, des requêtes API sont effectuées pour importer et mettre à jour les données"
@@ -96,18 +96,24 @@ export const info = {
             description: "Création d'une application immobilère avec React, gestion des différentes routes avec react router et création d'animation CSS avec Sass"
         },
         {
-            title: "Développer le back-end d'un site de notation de livres",
+            title: "Développer le back-end d'une librairie en ligne",
             live: imageP7,
             source: "https://github.com/Manuel26190/Developper-le-back-end-d-un-site-de-notation-de-livres",
             image: projet7,
             description:"Toujours avec React, à partir du code front-end, j'ai développé la partie back-end d'un site de référencement et de notation de livres, avec Node.js et Express.js"
         },
         {
-            title: "Blog de carnet de voyage",
+            title: (
+                <>
+                    Blog de carnet <br /> de voyage
+                </>
+            ),
             live: "https://manuel26190.github.io/Blog-de-voyage/",
             source: "https://github.com/Manuel26190/Blog-de-voyage/settings/pages",
             image: image8,
-            description:"Projet de création d'un blog de récit de voyage avec du code HTML et CSS"
+            description: "Projet de création d'un blog de récit de voyage avec du code HTML et CSS"
         }
+        
+        
     ]
 }
