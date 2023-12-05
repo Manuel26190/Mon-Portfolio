@@ -5,10 +5,16 @@ import projet6 from "../assets/homep6.png";
 import projet7 from "../assets/homep7.png";
 //import imageP3 from "../assets/homep3.png";
 //import imageP6 from "../assets/homep6.png";
-import imageP7 from "../assets/homep7.png";
+//import imageP7 from "../assets/homep7.png";
 import image8 from "../assets/homeBlogVoyage.png";
+import mvg1 from "../assets/homep7.png"; 
+import mvg2 from "../assets/mon-vieux-grimoire-fiche-livre.png";
+import mvg3 from "../assets/mon-vieux-grimoire-ajouter-un-livre.png"; 
+import mvg4 from "../assets/mon-vieux-grimoire-login.png"; 
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+
+
 
 export const info = {
     firstName: "Manuel",
@@ -97,7 +103,7 @@ export const info = {
         },
         {
             title: "Développer le back-end d'une librairie en ligne",
-            live: imageP7,
+            live: [mvg1, mvg2, mvg3, mvg4],
             source: "https://github.com/Manuel26190/Developper-le-back-end-d-un-site-de-notation-de-livres",
             image: projet7,
             description:"Toujours avec React, à partir du code front-end, j'ai développé la partie back-end d'un site de référencement et de notation de livres, avec Node.js et Express.js"

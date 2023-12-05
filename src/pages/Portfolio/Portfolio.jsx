@@ -4,6 +4,8 @@ import PortfolioBlock from './PortfolioBlock';
 import {Box, Grid} from "@mui/material";
 import {info} from "../../info/info";
 
+console.log(info.portfolio[4].live);
+
 export default function Portfolio() {
     
     return (
