@@ -22,13 +22,13 @@ function Modal(props) {
     return (
         <div className="modal-container">
             <button className="preview-btn" onClick={handlePreviousClick}>
-                <FontAwesomeIcon icon={faChevronLeft} />
+                <FontAwesomeIcon className="chevron-icon" icon={faChevronLeft} />
             </button>
             <div className="img-div">
-                <img src={info.portfolio[4].live[currentIndex]} alt="" />
+                <img className="img-modal" src={info.portfolio[4].live[currentIndex]} alt="" />
             </div>
             <button className="next-btn" onClick={handleNextClick}>
-                <FontAwesomeIcon icon={faChevronRight} />
+                <FontAwesomeIcon className="chevron-icon" icon={faChevronRight} />
             </button>
         </div>
     );
