@@ -11,7 +11,7 @@ EDIT ON
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     h1{
         font-size: 2em;
     }    
@@ -21,14 +21,21 @@ EDIT ON
         gap: 0.5em;
         align-items: center;
         font-size: 1.5em;
+        
         .icon-box{
-            border: 2px solid grey;
+            border: 4px double grey;
             border-radius: 25px;
-            padding: 0.6em;            
+            padding: 0.6em; 
+            transition: 500ms ease-out;       
             
             .fa-code{
                 margin-right: 0.3em;
             }
+        }
+        .icon-box:hover{
+          transform: translateY(-5%);          
+          //border: 4px double grey;
+          //background: rgb(216, 216, 216); ;
         }        
     }
 }
@@ -42,6 +49,8 @@ EDIT ON
   background-repeat: no-repeat;
   background-size: cover; 
   position: relative;  
+  cursor: pointer;
+  border: 3px solid grey;
 }
 
 //Animation déplacement du texte description des projets vers le haut axe Y

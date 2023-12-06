@@ -24,12 +24,16 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   font-size: 1.5em;
 }
 .box-first-container .portfolio .icon-box {
-  border: 2px solid grey;
+  border: 4px double grey;
   border-radius: 25px;
   padding: 0.6em;
+  transition: 500ms ease-out;
 }
 .box-first-container .portfolio .icon-box .fa-code {
   margin-right: 0.3em;
+}
+.box-first-container .portfolio .icon-box:hover {
+  transform: translateY(-5%);
 }
 
 .container {
@@ -43,6 +47,8 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  cursor: pointer;
+  border: 3px solid grey;
 }
 
 .background-img .portfolio-descritpion {
