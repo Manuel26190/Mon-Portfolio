@@ -85,7 +85,7 @@ export const info = {
             live: "https://manuel26190.github.io/Site-web-dynamique/FrontEnd/", 
             source: "https://github.com/Manuel26190/Creer-une-page-web-dynamique-avec-javaScript",
             image: projet3,
-            description: "Projet de gestion de la partie front-end au sein d’une équipe, qui développe un site portfolio d’une architecte d’intérieur. La page est dynamique grâce à la manipulation du DOM avec java script, des requêtes API sont effectuées pour importer et mettre à jour les données"
+            description: "Gestion du front-end au sein d’une équipe qui développe le site portfolio d’une architecte d’intérieur. La page est dynamique grâce à la manipulation du DOM avec java script, des requêtes API sont effectuées pour importer et mettre à jour les données"
         },
         {
             title: "Debug et optimisation d'un site portfolio",

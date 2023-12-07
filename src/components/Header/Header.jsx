@@ -13,7 +13,8 @@ function Header () {
     const toggleTheme = () => {
         setIsDarkMode(!isDarkMode);        
         document.body.style.backgroundColor = isDarkMode ? '#1f1f1f' : '#f8f8f8' ;
-        document.body.style.color = isDarkMode ? '#f8f8f8' : '#1f1f1f';
+        document.body.style.color = isDarkMode ? '#f8f8f8' : '#1f1f1f';      
+
       };
     
       const links = document.querySelectorAll('a');

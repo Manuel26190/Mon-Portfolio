@@ -4,4 +4,10 @@
 
 .git-icon:active {
   color: aqua;
+}
+
+.git-icon.dark-mode {
+  color: aqua;
+  text-shadow: 2px 2px 2px grey;
+  border: 2px solid rgb(247, 12, 12);
 }/*# sourceMappingURL=IconLink.css.map */
