@@ -59,7 +59,7 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   font-size: 1.3em;
   text-align: center;
   opacity: 0;
-  transition: opacity 2000ms, transform 2000ms ease-out;
+  transition: opacity 1000ms, transform 1000ms ease-out;
   position: relative;
 }
 
@@ -70,7 +70,7 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
 
 .portfolio-title {
   opacity: 1;
-  transition: opacity 1000ms, transform 2000ms ease-out;
+  transition: opacity 1000ms, transform 1000ms ease-out;
   text-align: center;
   margin-top: 1.4em;
 }

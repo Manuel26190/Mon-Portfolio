@@ -33,9 +33,7 @@ EDIT ON
             }
         }
         .icon-box:hover{
-          transform: translateY(-5%);          
-          //border: 4px double grey;
-          //background: rgb(216, 216, 216); ;
+          transform: translateY(-5%);            
         }        
     }
 }
@@ -64,7 +62,7 @@ EDIT ON
   font-size: 1.3em;
   text-align: center;
   opacity: 0;
-  transition: opacity 2000ms, transform 2000ms ease-out;
+  transition: opacity 1000ms, transform 1000ms ease-out;
   position: relative;    
 }
 
@@ -75,7 +73,7 @@ EDIT ON
 
 .portfolio-title{
   opacity: 1;
-  transition: opacity 1000ms, transform 2000ms ease-out;  
+  transition: opacity 1000ms, transform 1000ms ease-out;  
   text-align: center;
   margin-top: 1.4em;
 }
