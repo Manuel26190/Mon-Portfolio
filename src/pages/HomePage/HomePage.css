@@ -81,7 +81,7 @@
   gap: 3em;
 }
 .homePage-section .text-div .social-icons a {
-  color: #1f1f1f;
+  color: white;
   font-size: 1.9em;
   transition: transform 500ms ease-in-out;
 }
@@ -90,6 +90,7 @@
 }
 .homePage-section .text-div .text-ul {
   margin-top: 0;
+  text-decoration: none;
 }
 .homePage-section .text-div .text-li {
   list-style-type: none;
@@ -102,4 +103,7 @@
 }
 .homePage-section .text-div .text-li .text-li-icon {
   margin-right: 0.4em;
+}
+.homePage-section .text-div a {
+  text-decoration: none;
 }/*# sourceMappingURL=HomePage.css.map */
