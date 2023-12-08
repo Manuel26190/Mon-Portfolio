@@ -8,18 +8,18 @@ function Header () {
 
 
     // Gestion du dark mode
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
       
     const toggleTheme = () => {
         setIsDarkMode(!isDarkMode);        
-        document.body.style.backgroundColor = isDarkMode ? '#1f1f1f' : '#f8f8f8' ;
-        document.body.style.color = isDarkMode ? '#f8f8f8' : '#1f1f1f';      
+        document.body.style.backgroundColor = isDarkMode ? 'white' : 'black' ;
+        document.body.style.color = isDarkMode ? 'black' : 'white' ;      
 
       };
     
       const links = document.querySelectorAll('a');
       links.forEach(link => {
-        link.style.color = isDarkMode ? '#1f1f1f' : '#f8f8f8';
+        link.style.color = isDarkMode ? 'white' : 'black';
       });
     
     const location = useLocation();
@@ -29,13 +29,13 @@ function Header () {
         <div className="div-header">           
             <nav>
                 <ul>
-                    <li><Link to="/home-portfolio" className={currentPage === '/'? 'nav-link active faHouse' : 'nav-link faHouse'}><FontAwesomeIcon icon={faHouse} /></Link></li>
+                    <li><Link to="/home-portfolio" className= {currentPage === '/home-portfolio'? 'nav-link faHouse active' : 'nav-link faHouse'}><FontAwesomeIcon icon={faHouse} /></Link></li>
                     <li><Link to="/about" className={currentPage === '/about'? 'nav-link active' : 'nav-link'}>A propos de moi</Link></li>
                     <li><Link to="/portfolio" className={currentPage === '/portfolio'? 'nav-link active' : 'nav-link'}>Portfolio</Link></li>
                     <li><Link to="/contact" className={currentPage === '/contact'? 'nav-link active' : 'nav-link'}>Contact</Link></li>
                     <li>
-                        <button onClick={toggleTheme} className={isDarkMode ? "theme-btn" : "theme-btn theme-mode"}>
-                            <FontAwesomeIcon icon={isDarkMode ? faMoon : faSun} />
+                        <button onClick={toggleTheme} className={isDarkMode ? "theme-btn theme-mode" : "theme-btn "}>
+                            <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} />
                         </button>
                     </li>
                 </ul>

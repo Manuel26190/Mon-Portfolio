@@ -9,24 +9,24 @@
             display: flex;
             justify-content: center;
             gap: 6em;
-            padding-inline-start: 0;
-            list-style-type: none;                        
+            //padding-inline-start: 0;
+            list-style-type: none; 
+            font-size: 2vh;                       
             li{
                 display: flex;
                 align-items: baseline;                                
             }          
             .nav-link{
                 padding-bottom: 7px;
-                text-decoration: none;
-                font-size: 1.3em;
+                text-decoration: none;                
                 transition: transform 500ms ease-in-out;              
                 
                 &:hover{
                     transform: scale(1.2) translateY(-10%);                    
                 }                                                               
              }.nav-link, .faHouse{    
-                font-size: 1.3em;
-                color: white;                
+                font-size: 1.3em; 
+                                                            
             }
             .theme-btn{
                 border: none;
@@ -34,13 +34,13 @@
                 font-size: 1.3em;
                 cursor: pointer;
                 transition: transform 400ms ease-in-out;
-                background: $primary-clearTheme-color;
+                background: transparent;
                 &:hover{
                     transform: scale(1.4);                    
                 }                               
                                 
             }.theme-btn.theme-mode {
-                background: $primary-darkTheme-color;
+                background: transparent;
                 color:yellow;
             } 
         }
@@ -56,22 +56,26 @@
 
 //Responsive Header//
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
     .div-header nav{
         width: 90%;
-    } ul{
-        gap: 2em;
-        padding: 0.5em;
-        text-align: center;
-    }  
+        ul{
+            gap: 2em;
+            padding: 0.5em;
+            text-align: center;            
+            display: flex;
+            justify-content: space-between;            
+        }  
+    } 
 }
 
 @media(max-width: 768px){
     .div-header{                                     
-        nav{                                            
+        nav{
+            width: 98%;                                            
             ul{                            
-                gap: 1em;
-                padding: 0.5em;                          
+                gap: 1em;                
+                margin-bottom: 0;                         
                 li .nav-link{                    
                     &:hover{
                         transform: translateY(-20%);                    
@@ -82,10 +86,3 @@
     }
 }
 
-
-
-
- 
-//          gap: 0.5em;
-//          padding: 0.5em;
-//          text-align: center;

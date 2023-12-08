@@ -31,27 +31,26 @@
 .homePage-section{      
     display: flex;
     justify-content: center;
-    margin-top: 19%;
+    margin-top: 9%;
     align-items: center;
       .picture-div{
         border-radius: 50%;
         padding: 1.2rem;       
-        width: 350px;
-        height: 350px;
+        width: 40vh;
+        height: 40vh;
         background:$primary-azur-color;        
         box-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);  
         display: flex;
         align-items: center;
         justify-content: center;      
         .photo{
-            height: 23em;                        
+            height: 42vh;                        
             border-radius: 50%;                       
         }
       }
-      .text-div{
-        margin-left: 2em;
+      .text-div{        
         h1{
-            font-size: 2.6em;
+            font-size: 4vh;
             margin: 0;            
             .h1-first-name{
                 background: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
@@ -68,8 +67,9 @@
                 transform-origin: 70% 70%;
             }    
         }h2{
-            font-size: 2em;
-            margin: 0.3em 0 0.5em 0;            
+            font-size: 3.3vh;
+            margin: 0.3em 0 0.5em 0;    
+            text-align: center;        
         }.social-icons{
             display: flex;
             flex-direction: row;
@@ -86,13 +86,15 @@
             
         }.text-ul{
             margin-top: 0; 
-            text-decoration: none;                       
+            text-decoration: none; 
+            padding: 0;                      
         }.text-li{
             list-style-type: none;
             font-size: 1.2em;
             line-height: 1.9;
             transition: transform 300ms ease-in-out;  
-            //color: white;         
+            //color: white; 
+            text-align: center;        
             &:hover{
                 transform: translateY(-10%);
             }
@@ -106,6 +108,44 @@
       }       
 }
 
+@media(max-width: 1024px){
+    .homePage-section{
+        flex-direction: column-reverse;
+        margin-top: 8%;
+    }    
+    .text-ul{
+        display: none;              
+    }
+    .social-icons{
+        position: relative;
+        bottom: -60vh;      
+    }
+    .text-div{
+        margin: 0;
+    }
+    
+}
+@media(max-width: 768px){
+    .homePage-section{
+        flex-direction: column-reverse;
+        margin-top: 1.5%;
+    }
+    .text-ul{
+        display: none;              
+    }
+    h1{
+        font-size: 15px;
+    }
+    .home-hand{
+        display: none;
+        
+    }
+    .social-icons{
+        position: relative;
+        top:55vh;      
+    }     
+
+}
 
  
 

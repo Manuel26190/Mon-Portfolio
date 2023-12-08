@@ -11,7 +11,8 @@ EDIT ON
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;      
+    width: 80vh; 
     h1{
         font-size: 2em;
     }    
@@ -20,13 +21,14 @@ EDIT ON
         flex-direction: column;
         gap: 0.5em;
         align-items: center;
-        font-size: 1.5em;
+        font-size: 2.6vh;
         
         .icon-box{
             border: 4px double grey;
             border-radius: 25px;
             padding: 0.6em; 
-            transition: 500ms ease-out;       
+            transition: 500ms ease-out;
+            margin-top: 1em;       
             
             .fa-code{
                 margin-right: 0.3em;
@@ -58,8 +60,7 @@ EDIT ON
   //transition: transform 2000ms ease-out;
   opacity: 0;
 }
-
-.content .portfolio-descritpion {
+.portfolio-descritpion {
   font-size: 1.5em;
   text-align: center;
   opacity: 0;
@@ -87,26 +88,23 @@ EDIT ON
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.background-img:hover .portfolio-title{
-  opacity: 0;
-  transform: translateY(-100%); 
-}
-.content .portfolio-title{
-  font-size:2.5em;  
+  font-size:4.3vh;  
   padding: 0.3em;  
   border: 6px double white; 
   border-radius: 0.5em;  
   opacity: 1; 
   box-shadow: 1px 1px 10px rgb(0, 0, 0); 
-  
+}
+.background-img:hover .portfolio-title{
+  opacity: 0;
+  transform: translateY(-100%); 
 }
 .box{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 37em;
+  width: 90%;
   height: 19em;    
   box-sizing: border-box;
   overflow: hidden;
@@ -117,4 +115,35 @@ EDIT ON
   text-shadow: 4px 4px 5px black; 
   transition: 1000ms ease-in-out;  
    
+}
+
+@media (max-width: 1024px){
+  .background-img{
+    margin-bottom: 1em;
+    width: 65vh;
+  }
+}
+
+@media (max-width: 768px){
+  .background-img{
+    margin-bottom: 1em;
+    width: 52vh;
+    height: 35vh;
+  }
+  .box-first-container{
+    .portfolio{
+      .icon-box{       
+        margin-top: 0;           
+      }
+    }
+  }
+  .box{
+    padding: 0;
+  }
+  
+  .portfolio-title{
+    margin-top: 1.8em;
+  }
+  
+  
 }

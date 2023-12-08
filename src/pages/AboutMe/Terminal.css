@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
 }
 .terminal-section .banner-div {
   background: #8C8C8C;
@@ -34,13 +35,38 @@
   width: 60%;
   border-radius: 0 0 0.6em 0.6em;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  height: auto;
 }
 .terminal-section .text-div {
   color: #f8f8f8;
+  height: auto;
   padding: 1em 2em;
   font-family: "Courier New", Courier, monospace;
 }
 .terminal-section p {
   text-align: start;
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .terminal-section .terminal-div {
+    width: 95%;
+    padding: 0;
+    margin: 0;
+  }
+  .terminal-section .banner-div {
+    width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  .terminal-section .terminal-div {
+    width: 90%;
+  }
+  .terminal-section .banner-div {
+    width: 90%;
+  }
+  .terminal-section .text-div {
+    padding: 0.3em;
+    height: auto;
+  }
 }/*# sourceMappingURL=Terminal.css.map */

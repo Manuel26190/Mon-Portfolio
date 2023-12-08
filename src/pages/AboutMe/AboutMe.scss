@@ -5,13 +5,14 @@
     display: flex;
     flex-direction: column;        
     p{
-        font-size: 1.5em;        
+        font-size: 2.6vh;               
         padding: 0.8em;        
     }          
     li{
         list-style-type: none;
         padding: 0.4em;
         transition: transform 500ms ease-in-out;
+        text-align: center;
         &:hover{
             transform: translateY(-10%);        
         }
@@ -20,7 +21,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 1.5em; 
+    font-size: 2.6vh; 
     margin: 0;
 }
 .skillsText-ul-first{
@@ -28,4 +29,41 @@
 }
 .skillsText-ul-last{
     height: 2em;       
+}
+
+@media(max-width: 1024px){
+    .aboutMe-div{
+        .skillsText-ul-first{              
+            padding: 0;    
+        }
+        .skillsText-ul-last{
+            
+            padding: 0;
+        }
+        .diversText-ul{
+            padding: 0;
+        }
+    }
+    
+}
+
+@media(max-width: 768px){
+    .aboutMe-div{
+        p{
+            text-align: center;
+        }
+    }
+    .skillsText-ul-first{
+        height: 7em;  
+        padding: 0;    
+    }
+    .skillsText-ul-last{
+        display: flex;        
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .diversText-ul{
+        padding: 0;
+    }
 }

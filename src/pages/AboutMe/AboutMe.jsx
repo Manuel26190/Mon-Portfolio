@@ -1,7 +1,6 @@
 import Terminal from "./Terminal";
 import { info } from "../../info/info";
 import './AboutMe.css';
-import {Box} from "@mui/material";
 
 function AboutMePage () {     
     const firstName = info.firstName.toLowerCase()
@@ -11,7 +10,7 @@ function AboutMePage () {
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
                 about{firstName} </p>
             <p><span style={{color: info.baseColor}}>about{firstName} <span
-                className="">(main)</span> $ </span>
+                className="">(main)</span> $ <br/></span>
                 {info.bio}
             </p>
         </>;
@@ -42,7 +41,7 @@ function AboutMePage () {
                 className="">(main)</span> $</span> ls</p>
             <ul className="terminal diversText-ul">
                 {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+                    <li key={index}><div component={'span'} mr={'1rem'}>{hobby.emoji}</div>{hobby.label}</li>
                 ))}
             </ul>
         </>;

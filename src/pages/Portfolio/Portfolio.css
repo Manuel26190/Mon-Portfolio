@@ -1,0 +1,27 @@
+.div-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  -moz-column-gap: 5.5em;
+       column-gap: 5.5em;
+  row-gap: 5em;
+}
+
+@media (max-width: 1024px) {
+  .div-box {
+    margin-bottom: 2em;
+    margin-top: 2%;
+    width: 100%;
+    gap: 2em;
+  }
+}
+@media (max-width: 768px) {
+  .div-box {
+    margin-bottom: 2em;
+    margin-top: 2%;
+    gap: 2em;
+    width: 100%;
+  }
+}/*# sourceMappingURL=Portfolio.css.map */

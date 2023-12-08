@@ -11,8 +11,8 @@
   display: flex;
   justify-content: center;
   gap: 6em;
-  padding-inline-start: 0;
   list-style-type: none;
+  font-size: 2vh;
 }
 .div-header nav ul li {
   display: flex;
@@ -21,7 +21,6 @@
 .div-header nav ul .nav-link {
   padding-bottom: 7px;
   text-decoration: none;
-  font-size: 1.3em;
   transition: transform 500ms ease-in-out;
 }
 .div-header nav ul .nav-link:hover {
@@ -29,7 +28,6 @@
 }
 .div-header nav ul .nav-link, .div-header nav ul .faHouse {
   font-size: 1.3em;
-  color: white;
 }
 .div-header nav ul .theme-btn {
   border: none;
@@ -37,13 +35,13 @@
   font-size: 1.3em;
   cursor: pointer;
   transition: transform 400ms ease-in-out;
-  background: #f8f8f8;
+  background: transparent;
 }
 .div-header nav ul .theme-btn:hover {
   transform: scale(1.4);
 }
 .div-header nav ul .theme-btn.theme-mode {
-  background: #1f1f1f;
+  background: transparent;
   color: yellow;
 }
 
@@ -53,20 +51,25 @@
   border-image-source: -webkit-linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .div-header nav {
     width: 90%;
   }
-  ul {
+  .div-header nav ul {
     gap: 2em;
     padding: 0.5em;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
 }
 @media (max-width: 768px) {
+  .div-header nav {
+    width: 98%;
+  }
   .div-header nav ul {
     gap: 1em;
-    padding: 0.5em;
+    margin-bottom: 0;
   }
   .div-header nav ul li .nav-link:hover {
     transform: translateY(-20%);
