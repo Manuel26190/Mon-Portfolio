@@ -1,10 +1,8 @@
 .footer-div {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  margin-top: 15em;
 }
 .footer-div p {
   font-size: 1.3em;
@@ -17,9 +15,17 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 1em;
+  margin-top: 15px;
 }
 .footer-div-basic p {
   font-size: 1.3em;
   text-align: center;
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-div {
+    margin-top: 16vh;
+    margin-bottom: 1em;
+  }
 }/*# sourceMappingURL=Footer.css.map */

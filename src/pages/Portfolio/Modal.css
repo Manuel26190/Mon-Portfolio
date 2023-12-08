@@ -91,4 +91,58 @@
 
 .close {
   display: none;
+}
+
+@media (max-width: 1024px) {
+  .img-modal {
+    margin-top: 5em;
+  }
+  .next-btn {
+    height: 2em;
+    top: 13%;
+  }
+  .preview-btn {
+    height: 2em;
+    top: 13%;
+  }
+  .close-btn {
+    height: 3em;
+    width: 5em;
+  }
+}
+@media (max-width: 768px) {
+  .img-modal {
+    margin-top: 5em;
+    width: 20em;
+  }
+  .next-btn {
+    top: 10%;
+    border: none;
+    box-shadow: none;
+    right: 0.5em;
+  }
+  .next-btn:hover {
+    background: transparent;
+  }
+  .preview-btn {
+    top: 10%;
+    border: none;
+    box-shadow: none;
+    left: 0.5em;
+  }
+  .preview-btn:hover {
+    background: transparent;
+  }
+  .chevron-icon {
+    z-index: 1000;
+    font-size: 0.5em;
+  }
+  .open {
+    display: flex;
+    justify-content: center;
+  }
+  .close-btn {
+    width: 4.5em;
+    height: 2em;
+  }
 }/*# sourceMappingURL=Modal.css.map */

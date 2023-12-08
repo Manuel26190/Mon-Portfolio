@@ -10,7 +10,8 @@ function Header () {
     // Gestion du dark mode
     const [isDarkMode, setIsDarkMode] = useState(true);
       
-    const toggleTheme = () => {
+    const toggleTheme = (event) => {
+        event.preventDefault();
         setIsDarkMode(!isDarkMode);        
         document.body.style.backgroundColor = isDarkMode ? 'white' : 'black' ;
         document.body.style.color = isDarkMode ? 'black' : 'white' ;      
@@ -21,6 +22,10 @@ function Header () {
       links.forEach(link => {
         link.style.color = isDarkMode ? 'white' : 'black';
       });
+
+      function preventDefault (event){
+        event.preventDefault();
+      }
     
     const location = useLocation();
     const currentPage = location.pathname;
@@ -29,7 +34,7 @@ function Header () {
         <div className="div-header">           
             <nav>
                 <ul>
-                    <li><Link to="/home-portfolio" className= {currentPage === '/home-portfolio'? 'nav-link faHouse active' : 'nav-link faHouse'}><FontAwesomeIcon icon={faHouse} /></Link></li>
+                    <li><Link onAuxClick={preventDefault} to="/home-portfolio" className= {currentPage === '/home-portfolio'? 'nav-link faHouse active' : 'nav-link faHouse'}><FontAwesomeIcon icon={faHouse} /></Link></li>
                     <li><Link to="/about" className={currentPage === '/about'? 'nav-link active' : 'nav-link'}>A propos de moi</Link></li>
                     <li><Link to="/portfolio" className={currentPage === '/portfolio'? 'nav-link active' : 'nav-link'}>Portfolio</Link></li>
                     <li><Link to="/contact" className={currentPage === '/contact'? 'nav-link active' : 'nav-link'}>Contact</Link></li>
