@@ -50,8 +50,9 @@
   border-radius: 50%;
 }
 .homePage-section .text-div h1 {
-  font-size: 4vh;
+  font-size: 4.2vh;
   margin: 0;
+  font-weight: 400;
 }
 .homePage-section .text-div h1 .h1-first-name {
   background: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
@@ -68,9 +69,11 @@
   transform-origin: 70% 70%;
 }
 .homePage-section .text-div h2 {
-  font-size: 3.3vh;
+  font-size: 3.7vh;
   margin: 0.3em 0 0.5em 0;
   text-align: center;
+  text-shadow: 3px 2px 8px rgb(140, 140, 140);
+  font-weight: 300;
 }
 .homePage-section .text-div .social-icons {
   display: flex;
@@ -96,6 +99,7 @@
   font-size: 1.2em;
   line-height: 1.9;
   transition: transform 300ms ease-in-out;
+  text-shadow: 1px 1px 1px black;
   text-align: center;
 }
 .homePage-section .text-div .text-li:hover {
