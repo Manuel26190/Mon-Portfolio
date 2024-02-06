@@ -43,7 +43,7 @@ export const info = {
     bio: "En reconversion professionnelle, ma transition vers le développement web s'est déroulée de manière naturelle. En tant que personne créative, je suis constamment prêt à relever les défis liés à la programmation et à la conception de fonctionnalités innovantes. Je trouve particulièrement gratifiant de contribuer au développement d'interfaces web, où chaque détail compte. Je suis prêt à m'adapter aux processus et aux outils spécifiques utilisés pour mener à bien les projets de l'entreprise.",
     skills:
         {
-            competentEn: ['javaScript', 'HTML5', 'CSS3', 'React', 'Angular', 'GitHub', 'Sass', 'Figma', 'jQuery', 'Linux', 'TypeScript', 'Bootstrap', 'Materialise', 'Tailwind'],
+            competentEn: ['javaScript', 'HTML5', 'CSS3', 'React', 'Angular', 'GitHub', 'Sass', 'Figma', 'jQuery', 'Linux', 'TypeScript', 'Bootstrap', 'Materialise', 'Tailwind', 'API REST'],
             familiariseAvec: ['Node.js', 'Express.js', 'PHP', 'MongoDB']
         }
     ,
