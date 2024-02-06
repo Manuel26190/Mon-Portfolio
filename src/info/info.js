@@ -103,7 +103,7 @@ export const info = {
             live: [mvg1, mvg2, mvg3, mvg4],
             source: "https://github.com/Manuel26190/Developper-le-back-end-d-un-site-de-notation-de-livres",
             image: projet7,
-            description:"Toujours avec React, à partir du code front-end, j'ai développé la partie back-end d'un site de référencement et de notation de livres, avec Node.js et Express.js"
+            description:"Avec React, à partir du code front-end, j'ai développé la partie back-end d'un site de référencement et de notation de livres, avec Node.js et Express.js"
         },
         {
             title: (
