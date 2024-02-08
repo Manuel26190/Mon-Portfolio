@@ -112,7 +112,7 @@ export const info = {
             live: "https://manuel26190.github.io/home-starwars/",
             source: "https://github.com/Manuel26190/home-starwars",
             image: image9,
-            description: "Developpement d'une interface qui propose des informations sur les personnages de la saga Star Wars. Cette Data est importée de SWAPI qui est une API Star Wars"
+            description: "Developpement d'une interface avec React qui propose des informations sur les personnages de la saga Star Wars. Cette Data est importée de SWAPI qui est une API Star Wars"
         },
         {
             title: (
