@@ -4,10 +4,12 @@ import projet5 from "../assets/homep5.png";
 import projet6 from "../assets/homep6.png";
 import projet7 from "../assets/homep7.png";
 import image8 from "../assets/homeBlogVoyage.png";
+import image9 from "../assets/image-api-star-wars.png";
 import mvg1 from "../assets/homep7.png"; 
 import mvg2 from "../assets/mon-vieux-grimoire-fiche-livre.png";
 import mvg3 from "../assets/mon-vieux-grimoire-ajouter-un-livre.png"; 
 import mvg4 from "../assets/mon-vieux-grimoire-login.png"; 
+
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -18,7 +20,7 @@ export const info = {
     lastName: "Faure",
 
     initials: "mf", 
-    position: "développeur Front-end junior",    
+    position: "développeur Front-end",    
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
     miniBio: [
@@ -82,7 +84,7 @@ export const info = {
             live: "https://manuel26190.github.io/Site-web-dynamique/FrontEnd/", 
             source: "https://github.com/Manuel26190/Creer-une-page-web-dynamique-avec-javaScript",
             image: projet3,
-            description: "Gestion du front-end au sein d’une équipe qui développe le site portfolio d’une architecte d’intérieur. La page est dynamique grâce à la manipulation du DOM avec java script, des requêtes API sont effectuées pour importer et mettre à jour les données"
+            description: "Gestion du front-end au sein d’une équipe qui développe le site portfolio d’une architecte d’intérieur. La page est dynamique grâce à la manipulation du DOM avec javaScript, des requêtes API sont effectuées pour importer et mettre à jour les données"
         },
         {
             title: "Debug et optimisation d'un site portfolio",
@@ -104,6 +106,13 @@ export const info = {
             source: "https://github.com/Manuel26190/Developper-le-back-end-d-un-site-de-notation-de-livres",
             image: projet7,
             description:"Avec React, à partir du code front-end, j'ai développé la partie back-end d'un site de référencement et de notation de livres, avec Node.js et Express.js"
+        },
+        {
+            title: 'Star Wars Api',
+            live: "https://manuel26190.github.io/home-starwars/",
+            source: "https://github.com/Manuel26190/home-starwars",
+            image: image9,
+            description: "Developpement d'une interface qui propose des informations sur les personnages de la saga Star Wars. Cette Data est importée de SWAPI qui est une API Star Wars"
         },
         {
             title: (
