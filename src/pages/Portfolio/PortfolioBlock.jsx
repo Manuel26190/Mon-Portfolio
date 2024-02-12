@@ -45,8 +45,7 @@ function PortfolioBlock(props) {
             <div className="border-div">
                <div className="container">
                   <div className="background-img" style={{ backgroundImage: `url(${image})` }}>
-                     {/* <div className="box">      
-                           
+                     {/* <div className="box">                          
                            <p className='portfolio-descritpion'>{description}</p>                       
                      </div> */}
                   </div>
