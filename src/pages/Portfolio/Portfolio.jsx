@@ -16,8 +16,7 @@ export default function Portfolio() {
                         source={project.source} 
                         title={project.title}
                         description={project.description} />
-                </div>               
-                                     
+                </div>                       
             ))}             
         </div>
     );
