@@ -5,7 +5,7 @@ import './PortfolioBlock.css';
 import Modal from './Modal';
 
 function PortfolioBlock(props) {
-   const { image, live, source, title, description } = props;
+   const { image, live, source, title } = props;
 
    const [isOpen, setOpen] = useState(false);
 

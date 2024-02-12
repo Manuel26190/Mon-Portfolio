@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./Modal.css";
 import { info } from "../../info/info";
@@ -7,15 +6,17 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 function Modal() {
+console.log(info.portfolio[5].image)
+
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [isOpen, setOpen] = useState(true); // Initialisez isOpen à true si vous voulez que la modal soit ouverte par défaut
+    const [isOpen, setOpen] = useState(true);
 
     const handlePreviousClick = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + info.portfolio[4].live.length) % info.portfolio[4].live.length);
+        setCurrentIndex((prevIndex) => (prevIndex - 1 + info.portfolio[5].live.length) % info.portfolio[5].live.length);
     };
 
     const handleNextClick = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % info.portfolio[4].live.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % info.portfolio[5].live.length);
     };  
     
     const handleClose = () => {        
@@ -29,7 +30,7 @@ function Modal() {
                 <FontAwesomeIcon className="chevron-icon" icon={faChevronLeft} />
             </button>
             <div className="img-div">
-                <img className="img-modal" src={info.portfolio[4].live[currentIndex]} alt="" />
+                <img className="img-modal" src={info.portfolio[5].live[currentIndex]} alt="" />
             </div>
             <button className="next-btn" onClick={handleNextClick}>
                 <FontAwesomeIcon className="chevron-icon" icon={faChevronRight} />
