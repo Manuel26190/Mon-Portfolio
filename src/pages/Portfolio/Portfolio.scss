@@ -3,9 +3,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 80px;    
-    column-gap: 5.5em;
-    row-gap: 5em;
+    margin-top: 80px;   
+    row-gap: 1em;
 }
 
 
@@ -16,6 +15,7 @@
         margin-top: 2%;
         width: 100%;
         gap: 2em;
+        margin-bottom: 4em;
     }
 }
 @media (max-width: 768px){

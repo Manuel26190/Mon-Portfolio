@@ -7,14 +7,17 @@ import "./Portfolio.css";
 export default function Portfolio() {
     
     return (
-        <div className="div-box"  >            
-            {info.portfolio.map((project, index) => (                
-                    <PortfolioBlock 
+        <div className="div-box"   >            
+            {info.portfolio.map((project, index) => ( 
+                <div key={index}>
+                <PortfolioBlock 
                         image={project.image} 
                         live={project.live} 
                         source={project.source} 
                         title={project.title}
-                        description={project.description} />                 
+                        description={project.description} />
+                </div>               
+                                     
             ))}             
         </div>
     );

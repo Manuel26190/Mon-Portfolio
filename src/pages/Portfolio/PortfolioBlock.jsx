@@ -16,15 +16,18 @@ function PortfolioBlock(props) {
    if (!live || live.length === 4) {
       return (
          <div className={'box-first-container'}>
+         <p className='portfolio-title'>{title}</p>
             <a className='project-link' onClick={handleOpen}>
+            <div className="border-div">
                <div className="container">
                   <div className="background-img" style={{ backgroundImage: `url(${image})` }}>
-                     < div className="box">                      
-                           <p className='portfolio-title'>{title}</p>
+                     {/* <div className="box">                          
                            <p className='portfolio-descritpion'>{description}</p>                       
-                     </div>
+                     </div> */}
                   </div>
                </div>
+            </div>
+              
             </a>
             {isOpen && <Modal />}
             <div className={'portfolio'} py={'2rem'}>
@@ -37,15 +40,19 @@ function PortfolioBlock(props) {
    } else {
       return (
          <div className={'box-first-container'}>
+         <h5 className='portfolio-title'>{title}</h5>
             <a href={live} target="_blank" rel='noreferrer'>
+            <div className="border-div">
                <div className="container">
                   <div className="background-img" style={{ backgroundImage: `url(${image})` }}>
-                     <div className="box">                       
-                           <p className='portfolio-title'>{title}</p>
+                     {/* <div className="box">      
+                           
                            <p className='portfolio-descritpion'>{description}</p>                       
-                     </div>
+                     </div> */}
                   </div>
                </div>
+            </div>
+               
             </a>
             <div className={'portfolio'} py={'2rem'}>
                <div className={'icon-box'} p={1} >

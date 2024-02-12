@@ -12,7 +12,7 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80vh;
+  width: 78vh;
 }
 .box-first-container h1 {
   font-size: 2em;
@@ -29,7 +29,9 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   border-radius: 25px;
   padding: 0.6em;
   transition: 500ms ease-out;
-  margin-top: 1em;
+  margin-top: 0.6em;
+  margin-bottom: 2em;
+  box-shadow: 1px 2px 6px black;
 }
 .box-first-container .portfolio .icon-box .fa-code {
   margin-right: 0.3em;
@@ -39,76 +41,48 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   border-color: white;
 }
 
+.border-div {
+  border: 2px solid grey;
+  border-radius: 0.5em;
+  padding: 0.4em;
+  box-shadow: 1px 3px 10px black;
+  transition: all 500ms ease-in-out;
+}
+
+.border-div:hover {
+  border-color: aqua;
+}
+
 .container {
-  padding-top: 2em;
+  z-index: 100;
+  background-color: white;
+  border-radius: 0.5em;
 }
 
 .background-img {
+  z-index: 50;
   width: 40em;
   height: 22em;
-  border-radius: 1em;
+  border-radius: 0.2em;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   cursor: pointer;
-  border: 1px solid grey;
-}
-
-.background-img .portfolio-descritpion {
-  opacity: 0;
-}
-
-.portfolio-descritpion {
-  font-size: 1.5em;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 1000ms, transform 1000ms ease-out;
-  position: relative;
-  text-shadow: 1px 1px 5px black;
-  font-weight: 300;
-}
-
-.background-img:hover .portfolio-descritpion {
-  opacity: 1;
-  transform: translateY(-250px);
-}
-
-.background-img:hover .box {
-  background-color: rgba(0, 0, 0, 0.85);
+  border: 2px solid grey;
 }
 
 .portfolio-title {
-  opacity: 1;
-  transition: opacity 1000ms, transform 1000ms ease-out;
   text-align: center;
-  margin-top: 0.6em;
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 4em;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 4.3vh;
+  font-size: 3vh;
+  font-weight: 200;
   padding: 0.3em;
-  border: 6px double white;
-  border-radius: 0.5em;
-  opacity: 1;
-  box-shadow: 1px 1px 10px rgb(0, 0, 0);
-}
-
-.background-img:hover .portfolio-title {
-  opacity: 0;
-  transform: translateY(-100%);
+  margin: auto;
+  width: 80%;
 }
 
 .box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  height: 19em;
-  box-sizing: border-box;
-  overflow: hidden;
   color: white;
   padding: 2em;
   border-radius: 0.7em;

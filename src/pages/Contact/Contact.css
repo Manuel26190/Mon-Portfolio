@@ -10,6 +10,7 @@
 }
 .form-div h2 {
   margin-top: 2.2em;
+  font-weight: 300;
 }
 .form-div .contact-form {
   display: flex;

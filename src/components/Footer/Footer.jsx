@@ -8,7 +8,7 @@ function Footer () {
 
     return (
         <div className={currentPage === '/portfolio' || currentPage === '/about' ? 'footer-div-basic' : 'footer-div'}>
-            <p>© 2023</p>
+            <p>© Manu-dev-2023</p>
         </div>
     );
 };

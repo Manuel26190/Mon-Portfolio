@@ -18,7 +18,7 @@ function HomePage() {
                 <img className='photo' src={require('../../assets/image.webp')} alt="cliché de manuel faure"/>
             </div>
             <div className='text-div'>
-                <h1>Bonjour, je suis <span className='h1-first-name'>Manuel</span><span className="home-hand">🤚</span></h1>
+                <h1>Hello, je suis <span className='h1-first-name'>Manuel</span><span className="home-hand">🤚</span></h1>
                 <h2>développeur Front-end</h2>
                 <ul className="text-ul">
                     <li className="text-li"><span className="text-li-icon" aria-label="cheese" role="img">☕</span> Carburant : le café</li>

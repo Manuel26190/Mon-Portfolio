@@ -1,11 +1,10 @@
 import "./Header.css";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon, faHouse } from '@fortawesome/free-solid-svg-icons';
 import { Link, useLocation } from 'react-router-dom';
 
 function Header () {
-
 
     // Gestion du dark mode
     const [isDarkMode, setIsDarkMode] = useState(true);
@@ -15,20 +14,26 @@ function Header () {
         setIsDarkMode(!isDarkMode);        
         document.body.style.backgroundColor = isDarkMode ? 'white' : 'black' ;
         document.body.style.color = isDarkMode ? 'black' : 'white' ;      
+              
 
       };
     
-      const links = document.querySelectorAll('a');
-      links.forEach(link => {
-        link.style.color = isDarkMode ? 'white' : 'black';
-      });
+      useEffect(() => {
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            link.style.color = isDarkMode ? 'white' : 'black';
+        });
+    });
+         
 
       function preventDefault (event){
         event.preventDefault();
-      }
+     }
     
     const location = useLocation();
     const currentPage = location.pathname;
+
+    //console.log(isDarkMode)
 
     return (
         <div className="div-header">           
