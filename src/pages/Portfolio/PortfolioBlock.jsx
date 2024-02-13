@@ -16,15 +16,12 @@ function PortfolioBlock(props) {
    if (!live || live.length === 4) {
       return (
          <div className={'box-first-container'}>
-         <p className='portfolio-title'>{title}</p>
+            <p className='portfolio-title'>{title}</p>
             <a className='project-link' onClick={handleOpen}>
             <div className="border-div">
                <div className="container">
-                  <div className="background-img" style={{ backgroundImage: `url(${image})` }}>
-                     {/* <div className="box">                          
-                           <p className='portfolio-descritpion'>{description}</p>                       
-                     </div> */}
-                  </div>
+                  <img className="background-img" src={image} >                     
+                  </img>
                </div>
             </div>
               
@@ -44,10 +41,7 @@ function PortfolioBlock(props) {
             <a href={live} target="_blank" rel='noreferrer'>
             <div className="border-div">
                <div className="container">
-                  <img className="background-img" src={image} >
-                     {/* <div className="box">                          
-                           <p className='portfolio-descritpion'>{description}</p>                       
-                     </div> */}
+                  <img className="background-img" src={image} >                     
                   </img>
                </div>
             </div>

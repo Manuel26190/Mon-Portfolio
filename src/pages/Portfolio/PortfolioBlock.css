@@ -12,7 +12,6 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 78vh;
 }
 .box-first-container h1 {
   font-size: 2em;
@@ -47,8 +46,6 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   padding: 0.4em;
   box-shadow: 1px 3px 10px black;
   transition: all 500ms ease-in-out;
-  width: 70vh;
-  height: 35vh;
 }
 
 .border-div:hover {
@@ -58,7 +55,6 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
 .container {
   background-color: white;
   border-radius: 0.5em;
-  width: 70vh;
   height: 35vh;
 }
 
@@ -67,7 +63,8 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   height: 35vh;
   border-radius: 0.2em;
   background-repeat: no-repeat;
-  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   cursor: pointer;
   border: 2px solid grey;
 }
@@ -106,14 +103,15 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
     height: 35vh;
   }
   .box-first-container .portfolio .icon-box {
-    margin-top: 0;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
   }
   .box {
     padding: 0;
     height: 14em;
   }
   .portfolio-title {
-    margin-top: 1.8em;
+    margin-top: 0;
   }
   .portfolio-descritpion {
     font-size: 1.2em;

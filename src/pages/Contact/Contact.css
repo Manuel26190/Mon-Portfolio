@@ -8,7 +8,7 @@
   align-items: center;
 }
 .form-div h2 {
-  margin-top: 2.2em;
+  margin-top: 2em;
   font-weight: 300;
 }
 .form-div .contact-form {
@@ -61,6 +61,9 @@
 @media (max-width: 1024px) {
   .form-div .contact-form {
     width: 80%;
+  }
+  .form-div h2 {
+    margin-top: 0.5em;
   }
 }
 @media (max-width: 768px) {

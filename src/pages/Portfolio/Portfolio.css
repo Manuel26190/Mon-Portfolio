@@ -19,8 +19,11 @@
 @media (max-width: 768px) {
   .div-box {
     margin-bottom: 2em;
-    margin-top: 2%;
-    gap: 2em;
+    margin-top: 7%;
+    gap: 1.5em;
     width: 100%;
+  }
+  .portfolio-title {
+    width: 90%;
   }
 }/*# sourceMappingURL=Portfolio.css.map */
