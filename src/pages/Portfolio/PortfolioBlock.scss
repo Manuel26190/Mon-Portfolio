@@ -1,7 +1,9 @@
 @import '../../variables.scss';
 
 
-
+.box-first-container{
+  width: 50rem;
+}
 .box-first-container{
     display: flex;
     flex-direction: column;
