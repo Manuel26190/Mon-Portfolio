@@ -8,8 +8,7 @@
         ul{            
             display: flex;
             justify-content: center;
-            gap: 6em;
-            //padding-inline-start: 0;
+            gap: 6em;            
             list-style-type: none; 
             font-size: 2vh;                       
             li{
@@ -20,13 +19,13 @@
                 padding-bottom: 7px;
                 text-decoration: none;                
                 transition: transform 500ms ease-in-out;                 
-                color: white;                       
+                color: white;                  
                 
                 &:hover{
                     transform: scale(1.2) translateY(-10%);                    
                 }                                                               
              }.nav-link, .faHouse{    
-                font-size: 3vh;                
+                font-size: 2.5vh;                
                                                             
             }           
             .theme-btn{

@@ -28,7 +28,7 @@
   transform: scale(1.2) translateY(-10%);
 }
 .div-header nav ul .nav-link, .div-header nav ul .faHouse {
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 .div-header nav ul .theme-btn {
   border: none;
