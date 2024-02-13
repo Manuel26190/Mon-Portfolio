@@ -47,6 +47,8 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   padding: 0.4em;
   box-shadow: 1px 3px 10px black;
   transition: all 500ms ease-in-out;
+  width: 70vh;
+  height: 35vh;
 }
 
 .border-div:hover {

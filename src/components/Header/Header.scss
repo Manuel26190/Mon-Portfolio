@@ -19,15 +19,14 @@
             .nav-link{
                 padding-bottom: 7px;
                 text-decoration: none;                
-                transition: transform 500ms ease-in-out;   
-                //text-shadow: 1px 1px 1px black;   
+                transition: transform 500ms ease-in-out;                 
                 color: white;                       
                 
                 &:hover{
                     transform: scale(1.2) translateY(-10%);                    
                 }                                                               
              }.nav-link, .faHouse{    
-                font-size: 1.3em;                
+                font-size: 3vh;                
                                                             
             }           
             .theme-btn{

@@ -1,8 +1,10 @@
+@charset "UTF-8";
 .footer-div {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 15em;
+  position: fixed;
+  bottom: 1.5em;
 }
 .footer-div p {
   font-size: 1.3em;
@@ -22,9 +24,18 @@
   margin: 0;
 }
 
+@media (max-width: 1028) {
+  .homePage-section {
+    margin-top: 0ù;
+  }
+  .footer-div {
+    margin-top: 16vh;
+    bottom: 1px;
+  }
+}
 @media (max-width: 768px) {
   .footer-div {
     margin-top: 16vh;
-    margin-bottom: 1em;
+    bottom: 1px;
   }
 }/*# sourceMappingURL=Footer.css.map */

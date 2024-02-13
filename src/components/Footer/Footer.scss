@@ -1,8 +1,9 @@
 .footer-div{
     display:flex;
     flex-direction: column;
-    width: 100%;       
-    margin-top: 15em;
+    width: 100%;   
+    position: fixed; 
+    bottom: 1.5em;      
     p{
         font-size: 1.3em;
         text-align: center;
@@ -14,7 +15,7 @@
     flex-direction: column;    
     align-items: center;
     margin-bottom: 2em;
-    //margin-top: 7em;
+    
     p{
         font-size: 1.3em;
         text-align: center;
@@ -22,9 +23,22 @@
     }
 }
 
+
+
+
+@media(max-width: 1028){
+    .homePage-section{
+        margin-top: 0ù;
+    }
+    
+    .footer-div{
+        margin-top: 16vh;
+        bottom: 1px;
+    }
+}
 @media(max-width: 768px){
     .footer-div{
         margin-top: 16vh;
-        margin-bottom: 1em;
+        bottom: 1px;
     }
 }

@@ -115,14 +115,13 @@
 @media (max-width: 1024px) {
   .homePage-section {
     flex-direction: column-reverse;
-    margin-top: 8%;
+    margin-top: 3%;
   }
   .text-ul {
     display: none;
   }
   .social-icons {
-    position: relative;
-    bottom: -60vh;
+    display: none;
   }
   .text-div {
     margin: 0;

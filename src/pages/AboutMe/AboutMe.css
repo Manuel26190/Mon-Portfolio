@@ -1,6 +1,5 @@
 .aboutMe-div {
   margin-top: 2.5em;
-  gap: 2.5em;
   margin-bottom: 2.5em;
   display: flex;
   flex-direction: column;
@@ -25,6 +24,7 @@
   flex-wrap: wrap;
   font-size: 2.6vh;
   margin: 0;
+  padding: 0;
 }
 
 .skillsText-ul-first {
