@@ -2,17 +2,12 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 
-HTML CSSResult Skip Results Iframe EDIT ON * {
-  margin: 0;
-  padding: 0;
-}
-
 .box-first-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70vh;
+  width: 50rem;
 }
 .box-first-container h1 {
   font-size: 2em;

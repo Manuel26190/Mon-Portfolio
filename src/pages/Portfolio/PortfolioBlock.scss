@@ -1,18 +1,14 @@
 @import '../../variables.scss';
 
-HTML CSSResult Skip Results Iframe
-EDIT ON
-*{
-  margin:0;
-  padding:0;
-}
+
 
 .box-first-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;      
-    width: 70vh;     
+    width: 50rem;  
+      
     h1{
         font-size: 2em;        
     }
