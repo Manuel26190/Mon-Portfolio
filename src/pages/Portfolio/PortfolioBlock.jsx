@@ -20,7 +20,7 @@ function PortfolioBlock(props) {
             <a className='project-link' onClick={handleOpen}>
             <div className="border-div">
                <div className="container">
-                  <img className="background-img" src={image} >                     
+                  <img className="background-img" src={image} alt={title} >                     
                   </img>
                </div>
             </div>
@@ -41,7 +41,7 @@ function PortfolioBlock(props) {
             <a href={live} target="_blank" rel='noreferrer'>
             <div className="border-div">
                <div className="container">
-                  <img className="background-img" src={image} >                     
+                  <img className="background-img" src={image} alt={title} >                     
                   </img>
                </div>
             </div>
