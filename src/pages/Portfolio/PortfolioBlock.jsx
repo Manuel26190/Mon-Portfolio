@@ -44,11 +44,11 @@ function PortfolioBlock(props) {
             <a href={live} target="_blank" rel='noreferrer'>
             <div className="border-div">
                <div className="container">
-                  <div className="background-img" style={{ backgroundImage: `url(${image})` }}>
+                  <img className="background-img" src={image} >
                      {/* <div className="box">                          
                            <p className='portfolio-descritpion'>{description}</p>                       
                      </div> */}
-                  </div>
+                  </img>
                </div>
             </div>
                

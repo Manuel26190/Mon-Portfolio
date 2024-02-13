@@ -54,15 +54,15 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
 }
 
 .container {
-  z-index: 100;
   background-color: white;
   border-radius: 0.5em;
+  width: 70vh;
+  height: 35vh;
 }
 
 .background-img {
-  z-index: 50;
-  width: 40em;
-  height: 22em;
+  width: 70vh;
+  height: 35vh;
   border-radius: 0.2em;
   background-repeat: no-repeat;
   background-size: cover;
