@@ -12,6 +12,7 @@ HTML CSSResult Skip Results Iframe EDIT ON * {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 70vh;
 }
 .box-first-container h1 {
   font-size: 2em;
