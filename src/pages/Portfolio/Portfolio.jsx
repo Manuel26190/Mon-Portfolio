@@ -7,7 +7,8 @@ import "./Portfolio.css";
 export default function Portfolio() {
     
     return (
-        <div className="div-box"   >            
+        <section className='portfolio-section'>
+            <div className="div-box"   >            
             {info.portfolio.map((project, index) => ( 
                 <div key={index}>
                 <PortfolioBlock 
@@ -19,5 +20,7 @@ export default function Portfolio() {
                 </div>                       
             ))}             
         </div>
+        </section>
+        
     );
 };

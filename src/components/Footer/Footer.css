@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  position: fixed;
-  bottom: 1vh;
+  margin-top: 27vh;
 }
 .footer-div p {
   font-size: 1.3em;
@@ -23,18 +22,17 @@
   margin: 0;
 }
 
-@media (max-width: 1028) {
+@media (max-width: 1028px) {
   .footer-div {
-    margin-top: 16vh;
+    margin-top: 20vh;
     bottom: 2px;
   }
 }
 @media (max-width: 768px) {
   .footer-div {
-    margin-top: 16vh;
-    bottom: 2px;
+    margin-top: 17vh;
   }
-  .footer-div-basic {
+  .footer-div p {
     margin-bottom: 1em;
   }
 }/*# sourceMappingURL=Footer.css.map */

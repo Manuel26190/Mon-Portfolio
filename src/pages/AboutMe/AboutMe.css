@@ -38,6 +38,7 @@
 @media (max-width: 1024px) {
   .aboutMe-div .skillsText-ul-first {
     padding: 0;
+    height: 16em;
   }
   .aboutMe-div .skillsText-ul-last {
     padding: 0;
@@ -51,7 +52,7 @@
     text-align: center;
   }
   .skillsText-ul-first {
-    height: 7em;
+    height: 16em;
     padding: 0;
   }
   .skillsText-ul-last {

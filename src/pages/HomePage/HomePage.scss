@@ -115,7 +115,10 @@
     .homePage-section{
         flex-direction: column-reverse;
         margin-top: 3%;
-    }    
+    }   
+    .picture-div{
+        margin-top: 4em;
+    } 
     .text-ul{
         display: none;              
     }
@@ -132,6 +135,9 @@
         flex-direction: column-reverse;
         margin-top: 1.5%;
     }
+    .picture-div{
+        margin-top: 0;
+    }
     .text-ul{
         display: none;              
     }
@@ -144,8 +150,12 @@
     }
     .social-icons{
         position: relative;
-        top:55vh;      
-    }     
+        top:55vh;   
+        //visibility: hidden;   
+    } 
+     
+    
+       
 
 }
 

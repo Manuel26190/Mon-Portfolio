@@ -1,16 +1,27 @@
+.portfolio-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+    
+}
+
 .div-box{    
     display: flex;
+    justify-content: center;
+    align-items: center;    
+    row-gap: 2.2em;  
+    column-gap: 6em; 
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 80px;   
-    row-gap: 1em;
 }
 
 
 @media (max-width: 1024px){
     
-    
+    .portfolio-section{
+        padding: 0.2em;
+    }
     .div-box{        
         margin-bottom: 2em;
         margin-top: 2%;
@@ -26,8 +37,6 @@
         gap: 1.5em;        
         width: 100%;      
     }
-    .portfolio-title{
-        width: 90%;
-    }
+    
     
 }

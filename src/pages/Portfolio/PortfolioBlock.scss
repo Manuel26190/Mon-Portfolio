@@ -1,15 +1,13 @@
 @import '../../variables.scss';
 
 
-.box-first-container{
-  width: 50rem;
-}
+
 .box-first-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;      
-    width: 50rem;  
+    width: 35rem;  
       
     h1{
         font-size: 2em;        
@@ -19,7 +17,7 @@
         flex-direction: column;
         gap: 0.5em;
         align-items: center;
-        font-size: 2.6vh;
+        font-size: 2.4vh;
         
         .icon-box{
             border: 4px double grey;
@@ -27,7 +25,7 @@
             padding: 0.6em; 
             transition: 500ms ease-out;
             margin-top: 0.6em;
-            margin-bottom: 2em; 
+            margin-bottom: 01em; 
             box-shadow: 1px 2px 6px black;     
             
             .fa-code{
@@ -57,39 +55,18 @@
 .container{       
     background-color: white; 
     border-radius: 0.5em; 
-    //width: 100% ;
-    height: 35vh ;   
+    width: 100% ;
+    height: 20rem ;   
     }
 .background-img{  
-  width: 70vh ;
-  height: 35vh ;    
+  width: 100% ;
+  height: 20rem ;    
   border-radius: 0.2em;  
-  background-repeat: no-repeat;
-  //background-size: cover; 
+  background-repeat: no-repeat;  
   object-fit: cover; 
   cursor: pointer;
   border: 2px solid grey;
 }
-
-//Animation déplacement du texte description des projets vers le haut axe Y
-// et opacity 0.1 sur le titre
-
-// .portfolio-descritpion {
-//   font-size: 1.5em;
-//   text-align: center;
-//   opacity: 1;
-//   transition: opacity 1000ms, transform 1000ms ease-out;   
-//   text-shadow: 1px 1px 5px black; 
-//   font-weight: 300; 
-// }
-
-// .background-img:hover .portfolio-descritpion {  
-//   opacity: 1;
-//   transform: translateY(-50px);    
-// }
-// .background-img:hover .box {  
-//   background-color: rgba(0, 0, 0, 0.85);     
-// }
 
 .portfolio-title{    
   text-align: center;   
@@ -97,10 +74,10 @@
   align-items: center;
   justify-content: center;
   font-size: 3vh;  
-  font-weight: 200;
-  padding: 0.3em;  
-  margin: auto;  
+  font-weight: 200;  
+  margin: 0;  
   width: 80%;
+  height: 4em;
 }
 .box{   
   color: white;
@@ -112,9 +89,13 @@
 }
 
 @media (max-width: 1024px){
+  
   .background-img{
     margin-bottom: 1em;
     width: 65vh;
+  }
+  .portfolio-title{
+    width: 100%;
   }
 }
 
@@ -122,7 +103,10 @@
   .background-img{
     margin-bottom: 1em;
     width: 52vh;
-    height: 35vh;
+    
+  }
+  .portfolio-title{
+    width: 60%;
   }
   .box-first-container{
     .portfolio{
@@ -136,9 +120,7 @@
     padding: 0;
     height: 14em;
   }  
-  .portfolio-title{
-    margin-top: 0;
-  } 
+  
   .portfolio-descritpion{
     font-size: 1.2em;
     height: 5em;

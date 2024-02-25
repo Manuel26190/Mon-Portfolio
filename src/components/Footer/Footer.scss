@@ -1,9 +1,9 @@
+
 .footer-div{
     display:flex;
     flex-direction: column;
-    width: 100%;   
-    position: fixed; 
-    bottom: 1vh;      
+    width: 100%;  
+    margin-top: 27vh;         
     p{
         font-size: 1.3em;
         text-align: center;
@@ -23,23 +23,20 @@
     }
 }
 
-@media(max-width: 1028){
-    .homePage-section{
-        
-    }
-    
+@media(max-width: 1028px){    
     .footer-div{
-        margin-top: 16vh;
+        margin-top: 20vh;
         bottom: 2px;
+        
     }
     
 }
 @media(max-width: 768px){
     .footer-div{
-        margin-top: 16vh;
-        bottom: 2px;
+        margin-top: 17vh;
+        p{
+            margin-bottom: 1em;
+        }                
     }
-    .footer-div-basic{
-        margin-bottom: 1em;
-    }
+    
 }
