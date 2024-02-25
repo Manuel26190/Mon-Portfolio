@@ -17,6 +17,7 @@
 }
 
 
+
 @media (max-width: 1024px){
     
     .portfolio-section{
@@ -37,6 +38,13 @@
         gap: 1.5em;        
         width: 100%;      
     }
+    .div-box-before{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
     
     
 }

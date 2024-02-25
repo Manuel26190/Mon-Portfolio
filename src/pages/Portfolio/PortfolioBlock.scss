@@ -1,7 +1,5 @@
 @import '../../variables.scss';
 
-
-
 .box-first-container{
     display: flex;
     flex-direction: column;
@@ -92,7 +90,7 @@
   
   .background-img{
     margin-bottom: 1em;
-    width: 65vh;
+    width: 90%;
   }
   .portfolio-title{
     width: 100%;
@@ -102,13 +100,16 @@
 @media (max-width: 768px){  
   .background-img{
     margin-bottom: 1em;
-    width: 52vh;
-    
+    width: 100%;    
+  }
+  .container{
+    //width: 95%;
   }
   .portfolio-title{
     width: 60%;
   }
   .box-first-container{
+    width: 95%;
     .portfolio{
       .icon-box{       
         margin-top: 1vh;           
@@ -129,5 +130,6 @@
     opacity: 1;
     transform: translateY(-190%);    
   }
+  
   
 }

@@ -35,4 +35,9 @@
     gap: 1.5em;
     width: 100%;
   }
+  .div-box-before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=Portfolio.css.map */

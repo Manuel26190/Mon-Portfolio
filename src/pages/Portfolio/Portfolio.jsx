@@ -10,7 +10,7 @@ export default function Portfolio() {
         <section className='portfolio-section'>
             <div className="div-box"   >            
             {info.portfolio.map((project, index) => ( 
-                <div key={index}>
+                <div className='div-box-before' key={index}>
                 <PortfolioBlock 
                         image={project.image} 
                         live={project.live} 
