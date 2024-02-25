@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/home-portfolio/static/css/main.700563ff.css",
-    "main.js": "/home-portfolio/static/js/main.acdbf916.js",
+    "main.css": "/home-portfolio/static/css/main.7210185f.css",
+    "main.js": "/home-portfolio/static/js/main.6acdf6df.js",
     "static/media/homep5.png": "/home-portfolio/static/media/homep5.5e6ababe8b92cfb43ebf.png",
     "static/media/homep6.png": "/home-portfolio/static/media/homep6.0774e05af0778c05f801.png",
     "static/media/homeBlogVoyage.png": "/home-portfolio/static/media/homeBlogVoyage.57e78357218d9fdd13b3.png",
@@ -15,11 +15,11 @@
     "static/media/image.webp": "/home-portfolio/static/media/image.28fc4d4c8d93375eaf77.webp",
     "static/media/mon-vieux-grimoire-ajouter-un-livre.png": "/home-portfolio/static/media/mon-vieux-grimoire-ajouter-un-livre.28cca4081e189121a56c.png",
     "index.html": "/home-portfolio/index.html",
-    "main.700563ff.css.map": "/home-portfolio/static/css/main.700563ff.css.map",
-    "main.acdbf916.js.map": "/home-portfolio/static/js/main.acdbf916.js.map"
+    "main.7210185f.css.map": "/home-portfolio/static/css/main.7210185f.css.map",
+    "main.6acdf6df.js.map": "/home-portfolio/static/js/main.6acdf6df.js.map"
   },
   "entrypoints": [
-    "static/css/main.700563ff.css",
-    "static/js/main.acdbf916.js"
+    "static/css/main.7210185f.css",
+    "static/js/main.6acdf6df.js"
   ]
 }
