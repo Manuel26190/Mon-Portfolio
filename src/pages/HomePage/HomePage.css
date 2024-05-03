@@ -31,7 +31,6 @@
 .homePage-section {
   display: flex;
   justify-content: center;
-  margin-top: 9%;
   align-items: center;
 }
 .homePage-section .picture-div {
@@ -72,8 +71,7 @@
   font-size: 3.7vh;
   margin: 0.3em 0 0.5em 0;
   text-align: center;
-  text-shadow: 3px 2px 4px rgb(140, 140, 140);
-  font-weight: 300;
+  font-weight: 400;
 }
 .homePage-section .text-div .social-icons {
   display: flex;
@@ -99,7 +97,7 @@
   font-size: 1.2em;
   line-height: 1.9;
   transition: transform 300ms ease-in-out;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(127, 127, 127);
   text-align: center;
 }
 .homePage-section .text-div .text-li:hover {

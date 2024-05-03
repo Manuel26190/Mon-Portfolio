@@ -1,164 +1,159 @@
-@import'../../variables.scss';
+@import '../../variables.scss';
 
 //Keyframes du salut de l'icon main
 @keyframes wave {
-    0% {    
+    0% {
         transform: rotate(0deg);
     }
-    10% {    
+    10% {
         transform: rotate(14deg);
     }
-    20% {    
+    20% {
         transform: rotate(-8deg);
     }
-    30% {    
+    30% {
         transform: rotate(14deg);
     }
-    40% {   
+    40% {
         transform: rotate(-4deg);
     }
-    50% {   
+    50% {
         transform: rotate(10deg);
     }
-    60% {   
+    60% {
         transform: rotate(0deg);
     }
-    100% {   
-    transform: rotate(0deg);
+    100% {
+        transform: rotate(0deg);
     }
 }
 
-.homePage-section{      
+.homePage-section {
     display: flex;
     justify-content: center;
-    margin-top: 9%;
     align-items: center;
-      .picture-div{
+    .picture-div {
         border-radius: 50%;
-        padding: 1.2rem;       
+        padding: 1.2rem;
         width: 40vh;
         height: 40vh;
-        background:$primary-azur-color;        
-        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);  
+        background: $primary-azur-color;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
         display: flex;
         align-items: center;
-        justify-content: center;      
-        .photo{
-            height: 42vh;                        
-            border-radius: 50%;                       
+        justify-content: center;
+        .photo {
+            height: 42vh;
+            border-radius: 50%;
         }
-      }
-      .text-div{        
-        h1{
+    }
+    .text-div {
+        h1 {
             font-size: 4.2vh;
-            margin: 0;           
-            font-weight: 400;           
-            .h1-first-name{
-                background: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
+            margin: 0;
+            font-weight: 400;
+            .h1-first-name {
+                background: linear-gradient(
+                    135deg,
+                    rgb(0, 255, 164),
+                    rgb(166, 104, 255)
+                );
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
             }
-            .home-hand{
+            .home-hand {
                 font-size: 45px;
-                margin-left: 10px;                
-                animation-duration: 2.5s;    
+                margin-left: 10px;
+                animation-duration: 2.5s;
                 animation: wave 2s infinite;
                 display: inline-block;
                 transform-origin: 70% 70%;
-            }    
-        }h2{
+            }
+        }
+        h2 {
             font-size: 3.7vh;
-            margin: 0.3em 0 0.5em 0;    
-            text-align: center; 
-            text-shadow: 3px 2px 4px rgb(140, 140, 140); 
-            font-weight: 300;     
-        }.social-icons{
+            margin: 0.3em 0 0.5em 0;
+            text-align: center;
+            font-weight: 400;
+        }
+        .social-icons {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            gap:3em;                       
-            a{
+            gap: 3em;
+            a {
                 color: white;
-                font-size: 1.9em ;                                
-                transition: transform 500ms ease-in-out;                
-                &:hover{                    
-                    transform: scale(1.3) ;                    
+                font-size: 1.9em;
+                transition: transform 500ms ease-in-out;
+                &:hover {
+                    transform: scale(1.3);
                 }
             }
-            
-        }.text-ul{
-            margin-top: 0; 
-            text-decoration: none; 
-            padding: 0;                      
-        }.text-li{
+        }
+        .text-ul {
+            margin-top: 0;
+            text-decoration: none;
+            padding: 0;
+        }
+        .text-li {
             list-style-type: none;
             font-size: 1.2em;
             line-height: 1.9;
-            transition: transform 300ms ease-in-out;  
-            text-shadow: 1px 1px 1px black;
-            text-align: center;        
-            &:hover{
+            transition: transform 300ms ease-in-out;
+            text-shadow: 1px 1px 1px rgb(127, 127, 127);
+            text-align: center;
+            &:hover {
                 transform: translateY(-10%);
             }
-            .text-li-icon{
-                margin-right: 0.4em;                
+            .text-li-icon {
+                margin-right: 0.4em;
             }
         }
-        a{
-            text-decoration: none;   
+        a {
+            text-decoration: none;
         }
-      }       
+    }
 }
 
-@media(max-width: 1024px){
-    .homePage-section{
+@media (max-width: 1024px) {
+    .homePage-section {
         flex-direction: column-reverse;
         margin-top: 3%;
-    }   
-    .picture-div{
+    }
+    .picture-div {
         margin-top: 4em;
-    } 
-    .text-ul{
-        display: none;              
     }
-    .social-icons{
-        display: none;      
+    .text-ul {
+        display: none;
     }
-    .text-div{
+    .social-icons {
+        display: none;
+    }
+    .text-div {
         margin: 0;
     }
-    
 }
-@media(max-width: 768px){
-    .homePage-section{
+@media (max-width: 768px) {
+    .homePage-section {
         flex-direction: column-reverse;
         margin-top: 1.5%;
     }
-    .picture-div{
+    .picture-div {
         margin-top: 0;
     }
-    .text-ul{
-        display: none;              
+    .text-ul {
+        display: none;
     }
-    h1{
+    h1 {
         font-size: 15px;
     }
-    .home-hand{
+    .home-hand {
         display: none;
-        
     }
-    .social-icons{
+    .social-icons {
         position: relative;
-        top:55vh;   
-        //visibility: hidden;   
-    } 
-     
-    
-       
-
+        top: 55vh;
+        //visibility: hidden;
+    }
 }
-
- 
-
-
