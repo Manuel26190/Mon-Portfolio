@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/home-portfolio/static/css/main.7216c7c8.css",
-    "main.js": "/home-portfolio/static/js/main.6acdf6df.js",
-    "static/media/homep5.png": "/home-portfolio/static/media/homep5.5e6ababe8b92cfb43ebf.png",
+    "main.css": "/home-portfolio/static/css/main.6e5b61f9.css",
+    "main.js": "/home-portfolio/static/js/main.a7d22ae0.js",
     "static/media/homep6.png": "/home-portfolio/static/media/homep6.0774e05af0778c05f801.png",
     "static/media/homeBlogVoyage.png": "/home-portfolio/static/media/homeBlogVoyage.57e78357218d9fdd13b3.png",
-    "static/media/homep7.png": "/home-portfolio/static/media/homep7.010451515c348ae2560f.png",
     "static/media/image-api-star-wars.png": "/home-portfolio/static/media/image-api-star-wars.8f31340badf64218e3d0.png",
     "static/media/homep3.png": "/home-portfolio/static/media/homep3.5e6f0c49b26864145209.png",
     "static/media/dog-walk.png": "/home-portfolio/static/media/dog-walk.7c42d2b638cc9fb1b475.png",
     "static/media/homep2.png": "/home-portfolio/static/media/homep2.ace3fbc06ad64afa6a5d.png",
-    "static/media/mon-vieux-grimoire-fiche-livre.png": "/home-portfolio/static/media/mon-vieux-grimoire-fiche-livre.54d2446be89abd701f74.png",
-    "static/media/mon-vieux-grimoire-login.png": "/home-portfolio/static/media/mon-vieux-grimoire-login.99aeec7b8f5e2720db16.png",
+    "static/media/makizart_tattoo.webp": "/home-portfolio/static/media/makizart_tattoo.a7fbecc5cebb383d0f84.webp",
+    "static/media/portfolio-freelance.webp": "/home-portfolio/static/media/portfolio-freelance.99d9d9a1762f176f21d9.webp",
+    "static/media/la_coquetiere.webp": "/home-portfolio/static/media/la_coquetiere.05ffb5867f64e739ffb4.webp",
     "static/media/image.webp": "/home-portfolio/static/media/image.28fc4d4c8d93375eaf77.webp",
-    "static/media/mon-vieux-grimoire-ajouter-un-livre.png": "/home-portfolio/static/media/mon-vieux-grimoire-ajouter-un-livre.28cca4081e189121a56c.png",
     "index.html": "/home-portfolio/index.html",
-    "main.7216c7c8.css.map": "/home-portfolio/static/css/main.7216c7c8.css.map",
-    "main.6acdf6df.js.map": "/home-portfolio/static/js/main.6acdf6df.js.map"
+    "main.6e5b61f9.css.map": "/home-portfolio/static/css/main.6e5b61f9.css.map",
+    "main.a7d22ae0.js.map": "/home-portfolio/static/js/main.a7d22ae0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7216c7c8.css",
-    "static/js/main.6acdf6df.js"
+    "static/css/main.6e5b61f9.css",
+    "static/js/main.a7d22ae0.js"
   ]
 }
