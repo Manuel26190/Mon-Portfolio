@@ -13,11 +13,8 @@
   font-size: 2em;
 }
 .box-first-container .portfolio {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-  align-items: center;
   font-size: 2.4vh;
+  font-weight: 700;
 }
 .box-first-container .portfolio .icon-box {
   border: 4px double grey;

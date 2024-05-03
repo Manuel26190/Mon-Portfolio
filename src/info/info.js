@@ -1,14 +1,8 @@
 import projet2 from '../assets/homep2.png'
 import projet3 from '../assets/homep3.png'
-//import projet5 from '../assets/homep5.png'
 import projet6 from '../assets/homep6.png'
-import projet7 from '../assets/homep7.png'
 import image8 from '../assets/homeBlogVoyage.png'
 import image9 from '../assets/image-api-star-wars.png'
-import mvg1 from '../assets/homep7.png'
-import mvg2 from '../assets/mon-vieux-grimoire-fiche-livre.png'
-import mvg3 from '../assets/mon-vieux-grimoire-ajouter-un-livre.png'
-import mvg4 from '../assets/mon-vieux-grimoire-login.png'
 import dogProject from '../assets/dog-walk.png'
 import laCoquetiere from '../assets/sites/la_coquetiere.webp'
 import makizart from '../assets/sites/makizart_tattoo.webp'
@@ -19,7 +13,6 @@ export let colors = ['rgb(0,255,164)', 'rgb(166,104,255)']
 export const info = {
     firstName: 'Manuel',
     lastName: 'Faure',
-
     initials: 'mf',
     position: 'développeur Front-end',
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
