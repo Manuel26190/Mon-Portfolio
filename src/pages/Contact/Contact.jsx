@@ -1,53 +1,63 @@
-import React from 'react';
-import './Contact.css';
-import { useForm, ValidationError } from '@formspree/react';
+import React from 'react'
+import './Contact.css'
+import { useForm, ValidationError } from '@formspree/react'
 
 function Contact() {
-    const [state, handleSubmit] = useForm("mvojrgbk");
-  if (state.succeeded) {
-      return <p>Merci pour l'envoi !</p>;
-  }
+    const [state, handleSubmit] = useForm('mvojrgbk')
+    if (state.succeeded) {
+        return <p>Merci pour l'envoi !</p>
+    }
     return (
-        <div className='form-div'>
-            <h2>Pour me contacter</h2>            
-            <form className='contact-form' onSubmit={handleSubmit}>
+        <div className="form-div">
+            <h2>Pour me contacter</h2>
+            <form className="contact-form" onSubmit={handleSubmit}>
                 <label htmlFor="name"></label>
-                <input className='form-input' placeholder="nom"                 
+                <input
+                    className="form-input"
+                    placeholder="Votre nom"
                     id="name"
-                    type="text" 
+                    type="text"
                     name="name"
                 />
-                <ValidationError 
-                    prefix="Name" 
+                <ValidationError
+                    prefix="Name"
                     field="name"
                     errors={state.errors}
                 />
                 <label htmlFor="email"></label>
-                <input className='form-input' placeholder="email"
+                <input
+                    className="form-input"
+                    placeholder="Votre Email"
                     id="email"
-                    type="email" 
+                    type="email"
                     name="email"
                 />
-                <ValidationError 
-                    prefix="Email" 
+                <ValidationError
+                    prefix="Email"
                     field="email"
                     errors={state.errors}
                 />
-                <textarea className='form-textarea' placeholder="votre message"
+                <textarea
+                    className="form-textarea"
+                    placeholder="Votre message"
                     id="message"
                     name="message"
                 />
-                <ValidationError 
-                    prefix="Message" 
+                <ValidationError
+                    prefix="Message"
                     field="message"
                     errors={state.errors}
                 />
-                <button className='form-button' type="submit" disabled={state.submitting}>Envoyer</button>
+                <button
+                    className="form-button"
+                    type="submit"
+                    disabled={state.submitting}
+                >
+                    Envoyer
+                </button>
             </form>
-        </div>        
-    );
+        </div>
+    )
 }
 
-export default Contact;
-
-
+export default Contact

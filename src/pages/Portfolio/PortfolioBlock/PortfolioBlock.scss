@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import '../../../variables.scss';
 
 .box-first-container {
     display: flex;
@@ -45,12 +45,11 @@
     border-radius: 0.5em;
     padding: 0.4em;
     box-shadow: 1px 3px 10px black;
-    transition: all 500ms ease-in-out;
-    //width: 100% ;
-    //height: 35vh ;
+    transition: all 500ms ease-out;
 }
 .border-div:hover {
     border-color: aqua;
+    box-shadow: 0px 0px 40px rgb(0, 255, 255, 0.6);
 }
 .container {
     background-color: white;
@@ -91,7 +90,7 @@
 @media (max-width: 1024px) {
     .background-img {
         margin-bottom: 1em;
-        width: 90%;
+        width: 100%;
     }
     .portfolio-title {
         width: 100%;

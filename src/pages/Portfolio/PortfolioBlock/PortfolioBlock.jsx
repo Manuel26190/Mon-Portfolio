@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import IconLink from './IconLink'
+import IconLink from '../IconLink/IconLink'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import './PortfolioBlock.css'
-import Modal from './Modal'
+import Modal from '../Modal/Modal'
 
 function PortfolioBlock(props) {
     const { image, live, source, title } = props
